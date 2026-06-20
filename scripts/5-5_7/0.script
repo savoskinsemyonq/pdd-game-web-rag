@@ -1,0 +1,30 @@
+-SCENE 5.7 var0 
+TEXT   	  Произошла авария. Кто из водителей нарушил Правила? 
+ 1. Водитель автомобиля. 
+ 2. Водитель трамвая.
+TEXTPOS 0 450
+TIME 3000
+
+INIT MY_CAR.pedestrian1
+POSITION 3518 4432 
+SPLINE 2 0 0 0 0 -48 3000 0 -426 0 -48                 
+
+INIT CAR.tram
+POSITION 3603 4307 
+SPLINE 1 1000 0 0 32 0 
+
+INIT CAR.ford
+POSITION 3647 4341 
+SPLINE 1 1000 0 0 0 -36  
+
+CASE 1
+SPLINE 2 0 0 0 0 -32 1000 -275 -7 -28 0   
+
+CASE 2
+SPLINE 2 0 0 0 0 -32 1000 -275 -7 -28 0  
+
+fine 0
+
+C_ERRORINFO Трамвай имеет преимущество перед безрельсовыми транспортными средствами (п. 18.1).
+
+END_FILE

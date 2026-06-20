@@ -1,0 +1,665 @@
+{
+  "version": 1,
+  "sprites": [
+    {
+      "file": "sprites/sprite_0003.png",
+      "w": 44,
+      "h": 36
+    },
+    {
+      "file": "sprites/sprite_0005.png",
+      "w": 44,
+      "h": 36
+    },
+    {
+      "file": "sprites/sprite_0007.png",
+      "w": 45,
+      "h": 36
+    },
+    {
+      "file": "sprites/sprite_0009.png",
+      "w": 45,
+      "h": 36
+    },
+    {
+      "file": "sprites/sprite_0011.png",
+      "w": 97,
+      "h": 84
+    },
+    {
+      "file": "sprites/sprite_0064.png",
+      "w": 51,
+      "h": 62
+    },
+    {
+      "file": "sprites/sprite_0077.png",
+      "w": 54,
+      "h": 66
+    },
+    {
+      "file": "sprites/sprite_0085.png",
+      "w": 43,
+      "h": 59
+    },
+    {
+      "file": "sprites/sprite_0122.png",
+      "w": 58,
+      "h": 43
+    },
+    {
+      "file": "sprites/sprite_0134.png",
+      "w": 40,
+      "h": 41
+    },
+    {
+      "file": "sprites/sprite_0223.png",
+      "w": 50,
+      "h": 46
+    },
+    {
+      "file": "sprites/sprite_0224.png",
+      "w": 55,
+      "h": 45
+    },
+    {
+      "file": "sprites/sprite_0226.png",
+      "w": 44,
+      "h": 67
+    },
+    {
+      "file": "sprites/sprite_0243.png",
+      "w": 60,
+      "h": 59
+    },
+    {
+      "file": "sprites/sprite_0470.png",
+      "w": 57,
+      "h": 57
+    },
+    {
+      "file": "sprites/sprite_0473.png",
+      "w": 54,
+      "h": 65
+    },
+    {
+      "file": "sprites/sprite_0478.png",
+      "w": 44,
+      "h": 59
+    },
+    {
+      "file": "sprites/sprite_0489.png",
+      "w": 51,
+      "h": 37
+    },
+    {
+      "file": "sprites/sprite_0550.png",
+      "w": 44,
+      "h": 38
+    },
+    {
+      "file": "sprites/sprite_0552.png",
+      "w": 44,
+      "h": 38
+    },
+    {
+      "file": "sprites/sprite_0570.png",
+      "w": 58,
+      "h": 43
+    },
+    {
+      "file": "sprites/sprite_0572.png",
+      "w": 56,
+      "h": 43
+    },
+    {
+      "file": "sprites/sprite_0703.png",
+      "w": 53,
+      "h": 64
+    },
+    {
+      "file": "sprites/sprite_0704.png",
+      "w": 55,
+      "h": 57
+    },
+    {
+      "file": "sprites/sprite_0714.png",
+      "w": 51,
+      "h": 58
+    },
+    {
+      "file": "sprites/sprite_0715.png",
+      "w": 44,
+      "h": 59
+    },
+    {
+      "file": "sprites/sprite_0799.png",
+      "w": 56,
+      "h": 37
+    },
+    {
+      "file": "sprites/sprite_0892.png",
+      "w": 25,
+      "h": 59
+    },
+    {
+      "file": "sprites/sprite_0898.png",
+      "w": 54,
+      "h": 66
+    },
+    {
+      "file": "sprites/sprite_0901.png",
+      "w": 59,
+      "h": 57
+    },
+    {
+      "file": "sprites/sprite_0908.png",
+      "w": 44,
+      "h": 59
+    },
+    {
+      "file": "sprites/sprite_0909.png",
+      "w": 44,
+      "h": 37
+    },
+    {
+      "file": "sprites/sprite_0910.png",
+      "w": 44,
+      "h": 59
+    },
+    {
+      "file": "sprites/sprite_0911.png",
+      "w": 43,
+      "h": 59
+    },
+    {
+      "file": "sprites/sprite_0914.png",
+      "w": 57,
+      "h": 55
+    },
+    {
+      "file": "sprites/sprite_0929.png",
+      "w": 34,
+      "h": 47
+    },
+    {
+      "file": "sprites/sprite_1023.png",
+      "w": 49,
+      "h": 46
+    },
+    {
+      "file": "sprites/sprite_1030.png",
+      "w": 43,
+      "h": 60
+    },
+    {
+      "file": "sprites/sprite_1032.png",
+      "w": 44,
+      "h": 37
+    },
+    {
+      "file": "sprites/sprite_1125.png",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "file": "sprites/sprite_1153.png",
+      "w": 53,
+      "h": 45
+    },
+    {
+      "file": "sprites/sprite_1157.png",
+      "w": 49,
+      "h": 44
+    },
+    {
+      "file": "sprites/sprite_1332.png",
+      "w": 45,
+      "h": 68
+    },
+    {
+      "file": "sprites/sprite_1333.png",
+      "w": 43,
+      "h": 49
+    },
+    {
+      "file": "sprites/sprite_1419.png",
+      "w": 42,
+      "h": 46
+    },
+    {
+      "file": "sprites/sprite_1420.png",
+      "w": 55,
+      "h": 66
+    },
+    {
+      "file": "sprites/sprite_1493.png",
+      "w": 43,
+      "h": 59
+    },
+    {
+      "file": "sprites/sprite_1494.png",
+      "w": 44,
+      "h": 59
+    },
+    {
+      "file": "sprites/sprite_1496.png",
+      "w": 44,
+      "h": 60
+    },
+    {
+      "file": "sprites/sprite_1497.png",
+      "w": 55,
+      "h": 68
+    },
+    {
+      "file": "sprites/sprite_1499.png",
+      "w": 55,
+      "h": 67
+    },
+    {
+      "file": "sprites/sprite_1500.png",
+      "w": 44,
+      "h": 59
+    },
+    {
+      "file": "sprites/sprite_1501.png",
+      "w": 44,
+      "h": 60
+    },
+    {
+      "file": "sprites/sprite_1502.png",
+      "w": 55,
+      "h": 67
+    },
+    {
+      "file": "sprites/sprite_1666.png",
+      "w": 51,
+      "h": 60
+    },
+    {
+      "file": "sprites/sprite_1669.png",
+      "w": 51,
+      "h": 60
+    },
+    {
+      "file": "sprites/sprite_1672.png",
+      "w": 55,
+      "h": 68
+    },
+    {
+      "file": "sprites/sprite_1674.png",
+      "w": 54,
+      "h": 67
+    },
+    {
+      "file": "sprites/sprite_1679.png",
+      "w": 55,
+      "h": 65
+    },
+    {
+      "file": "sprites/sprite_1740.png",
+      "w": 55,
+      "h": 46
+    },
+    {
+      "file": "sprites/sprite_1849.png",
+      "w": 62,
+      "h": 43
+    },
+    {
+      "file": "sprites/sprite_1914.png",
+      "w": 59,
+      "h": 44
+    },
+    {
+      "file": "sprites/sprite_1932.png",
+      "w": 50,
+      "h": 58
+    },
+    {
+      "file": "sprites/sprite_1935.png",
+      "w": 74,
+      "h": 21
+    },
+    {
+      "file": "sprites/sprite_1965.png",
+      "w": 54,
+      "h": 60
+    },
+    {
+      "file": "sprites/sprite_1984.png",
+      "w": 74,
+      "h": 22
+    },
+    {
+      "file": "sprites/sprite_2085.png",
+      "w": 355,
+      "h": 90
+    },
+    {
+      "file": "sprites/sprite_2093.png",
+      "w": 54,
+      "h": 67
+    },
+    {
+      "file": "sprites/sprite_2109.png",
+      "w": 44,
+      "h": 58
+    },
+    {
+      "file": "sprites/sprite_2178.png",
+      "w": 116,
+      "h": 102
+    },
+    {
+      "file": "sprites/sprite_2183.png",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "file": "sprites/sprite_2187.png",
+      "w": 37,
+      "h": 52
+    },
+    {
+      "file": "sprites/sprite_2233.png",
+      "w": 37,
+      "h": 52
+    },
+    {
+      "file": "sprites/sprite_2249.png",
+      "w": 39,
+      "h": 45
+    },
+    {
+      "file": "sprites/sprite_2265.png",
+      "w": 52,
+      "h": 39
+    },
+    {
+      "file": "sprites/sprite_2266.png",
+      "w": 52,
+      "h": 39
+    },
+    {
+      "file": "sprites/sprite_2324.png",
+      "w": 105,
+      "h": 104
+    },
+    {
+      "file": "sprites/sprite_2327.png",
+      "w": 45,
+      "h": 55
+    },
+    {
+      "file": "sprites/sprite_2358.png",
+      "w": 30,
+      "h": 50
+    },
+    {
+      "file": "sprites/sprite_2389.png",
+      "w": 106,
+      "h": 99
+    },
+    {
+      "file": "sprites/sprite_2542.png",
+      "w": 43,
+      "h": 40
+    },
+    {
+      "file": "sprites/sprite_2567.png",
+      "w": 66,
+      "h": 62
+    },
+    {
+      "file": "sprites/sprite_2568.png",
+      "w": 68,
+      "h": 75
+    },
+    {
+      "file": "sprites/sprite_2570.png",
+      "w": 88,
+      "h": 77
+    },
+    {
+      "file": "sprites/sprite_2578.png",
+      "w": 72,
+      "h": 38
+    },
+    {
+      "file": "sprites/sprite_2585.png",
+      "w": 63,
+      "h": 64
+    },
+    {
+      "file": "sprites/sprite_2627.png",
+      "w": 251,
+      "h": 83
+    },
+    {
+      "file": "sprites/sprite_2632.png",
+      "w": 109,
+      "h": 73
+    },
+    {
+      "file": "sprites/sprite_2633.png",
+      "w": 130,
+      "h": 75
+    },
+    {
+      "file": "sprites/home.png",
+      "w": 167,
+      "h": 185
+    },
+    {
+      "file": "sprites/naklon.png",
+      "w": 134,
+      "h": 85
+    },
+    {
+      "file": "sprites/mod_naklon.png",
+      "w": 311,
+      "h": 323
+    },
+    {
+      "file": "sprites/mod_playg.png",
+      "w": 350,
+      "h": 252
+    },
+    {
+      "file": "sprites/no_playground.png",
+      "w": 160,
+      "h": 90
+    },
+    {
+      "file": "sprites/50.png",
+      "w": 102,
+      "h": 154
+    },
+    {
+      "file": "sprites/500.png",
+      "w": 102,
+      "h": 154
+    },
+    {
+      "file": "sprites/dom.png",
+      "w": 621,
+      "h": 276
+    },
+    {
+      "file": "sprites/krug_dvig.png",
+      "w": 144,
+      "h": 85
+    },
+    {
+      "file": "sprites/krug_dvig_l.png",
+      "w": 135,
+      "h": 84
+    },
+    {
+      "file": "sprites/kust.png",
+      "w": 178,
+      "h": 162
+    },
+    {
+      "file": "sprites/main_rcl.png",
+      "w": 126,
+      "h": 64
+    },
+    {
+      "file": "sprites/main_road.png",
+      "w": 122,
+      "h": 152
+    },
+    {
+      "file": "sprites/mr.png",
+      "w": 122,
+      "h": 152
+    },
+    {
+      "file": "sprites/mroad.png",
+      "w": 122,
+      "h": 152
+    },
+    {
+      "file": "sprites/main_road_circle_r.png",
+      "w": 129,
+      "h": 68
+    },
+    {
+      "file": "sprites/main_road_cl.png",
+      "w": 126,
+      "h": 64
+    },
+    {
+      "file": "sprites/main_road_cr.png",
+      "w": 129,
+      "h": 68
+    },
+    {
+      "file": "sprites/ne_pravilsk.png",
+      "w": 127,
+      "h": 92
+    },
+    {
+      "file": "sprites/prav.png",
+      "w": 127,
+      "h": 92
+    },
+    {
+      "file": "sprites/park.png",
+      "w": 128,
+      "h": 102
+    },
+    {
+      "file": "sprites/podzem.png",
+      "w": 96,
+      "h": 99
+    },
+    {
+      "file": "sprites/podzem_180.png",
+      "w": 111,
+      "h": 105
+    },
+    {
+      "file": "sprites/rabota.png",
+      "w": 88,
+      "h": 116
+    },
+    {
+      "file": "sprites/relsi.png",
+      "w": 156,
+      "h": 321
+    },
+    {
+      "file": "sprites/treug.png",
+      "w": 151,
+      "h": 119
+    },
+    {
+      "file": "sprites/kr_treug.png",
+      "w": 151,
+      "h": 119
+    },
+    {
+      "file": "sprites/yama.png",
+      "w": 120,
+      "h": 112
+    },
+    {
+      "file": "sprites/modern/modern_rails.svg",
+      "w": 80,
+      "h": 130
+    },
+    {
+      "file": "sprites/modern/modern_yama.svg",
+      "w": 120,
+      "h": 95
+    },
+    {
+      "file": "sprites/modern/modern_sign_50.svg",
+      "w": 100,
+      "h": 125
+    },
+    {
+      "file": "sprites/modern/modern_dom.svg",
+      "w": 145,
+      "h": 115
+    },
+    {
+      "file": "sprites/modern/modern_home.svg",
+      "w": 124,
+      "h": 124
+    },
+    {
+      "file": "sprites/modern/modern_krug_dvig.svg",
+      "w": 170,
+      "h": 108
+    },
+    {
+      "file": "sprites/modern/modern_krug_dvig_l.svg",
+      "w": 170,
+      "h": 108
+    },
+    {
+      "file": "sprites/modern/modern_kust.svg",
+      "w": 130,
+      "h": 115
+    },
+    {
+      "file": "sprites/modern/modern_main_road.svg",
+      "w": 100,
+      "h": 135
+    },
+    {
+      "file": "sprites/modern/modern_naklon.svg",
+      "w": 135,
+      "h": 115
+    },
+    {
+      "file": "sprites/modern/modern_ne_pravilsk.svg",
+      "w": 148,
+      "h": 98
+    },
+    {
+      "file": "sprites/modern/modern_no_playground.svg",
+      "w": 152,
+      "h": 104
+    },
+    {
+      "file": "sprites/modern/modern_podzem.svg",
+      "w": 125,
+      "h": 110
+    },
+    {
+      "file": "sprites/modern/modern_podzem_180.svg",
+      "w": 125,
+      "h": 110
+    },
+    {
+      "file": "sprites/modern/modern_rabota.svg",
+      "w": 135,
+      "h": 115
+    }
+  ]
+}

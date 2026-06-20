@@ -1,0 +1,10 @@
+# Optional deps for stitch-mission1-from-screens.py
+# and the mission2 composite/sprite extractors (venv recommended)
+numpy>=1.24
+opencv-python-headless>=4.8
+pillow>=10.0
+# Used by extract-mission2-sprites.py for ML-quality alpha mattes.
+# Without this the script falls back to a grass-color alpha key, which is
+# good enough for clean maps but leaves halos on noisier ones.
+rembg>=2.0
+onnxruntime>=1.16

@@ -1,0 +1,84 @@
+-SCENE 7.9 var0 
+TEXT   	  Кто из водителей не нарушает правила движения по полосам? 
+ 1. Мотоциклист. 
+ 2. Водитель трактора. 
+ 3. Водитель грузовой машины.
+TEXTPOS 0 0
+TIME 3000
+init camera
+position 4127 2870
+
+INIT MY_CAR.ment
+POSITION 3966 2751 
+SPLINE 2 0 0 0 0 24 1000 0 281 0 28 
+turn -1 0 0 2             
+
+INIT CAR.lada
+POSITION 4096 2175 
+SPLINE 1 0 0 0 0 -40  
+turn 0 1
+
+INIT CAR.tractor
+POSITION 4255 2815 
+SPLINE 2 -2000 200 0 -132 0 0 0 0 -10 0 
+turn -1 0 0 2
+
+INIT CAR.truck
+POSITION 4255 2880 
+SPLINE 2 -2000 200 0 -132 0 0 0 0 -10 0  
+turn -1 0 0 2
+
+INIT CAR.motorcycle
+POSITION 4255 2943 
+SPLINE 2 -2000 200 0 -132 0 0 0 0 -10 0  
+
+STATE 17
+
+CASE 1
+SPLINE 4 0 0 0 0 32 1000 -1 75 0 56 2000 -86 122 -216 0 3000 -414 123 -32 0    
+turn 0 2 2000 0
+c_init car.tractor
+c_spline 1 0 0 0 -32 0    
+c_turn 0 2
+c_init car.truck
+c_spline 1 0 0 0 -32 0
+c_turn 0 2
+c_init car.motorcycle
+c_spline 1 0 0 0 -32 0
+
+fine 0
+
+C_ERRORINFO Знак «Направление движения по полосам» указывает, как участникам движения следует проезжать этот перекресток по полосам (п. 8.5).
+
+CASE 2
+SPLINE 4 0 0 0 0 32 1000 -1 75 0 56 2000 -86 122 -216 0 3000 -414 123 -32 0   
+turn 0 2 2000 0 
+c_init car.tractor
+c_spline 1 0 0 0 -32 0    
+c_turn 0 2
+c_init car.truck
+c_spline 1 0 0 0 -32 0
+c_turn 0 2
+c_init car.motorcycle
+c_spline 1 0 0 0 -32 0
+
+CASE 3
+SPLINE 4 0 0 0 0 32 1000 -1 75 0 56 2000 -86 122 -216 0 3000 -414 123 -32 0   
+turn 0 2 2000 0 
+c_init car.tractor
+c_spline 1 0 0 0 -32 0    
+c_turn 0 2
+c_init car.truck
+c_spline 1 0 0 0 -32 0
+c_turn 0 2
+c_init car.motorcycle
+c_spline 1 0 0 0 -32 0
+
+fine 0
+
+C_ERRORINFO Знак «Направление движения по полосам» указывает, как участникам движения следует проезжать этот перекресток по полосам (п. 8.5).
+
+END_FILE
+
+
+

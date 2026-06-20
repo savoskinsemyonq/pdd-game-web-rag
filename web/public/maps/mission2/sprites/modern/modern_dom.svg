@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 145 115" xmlns="http://www.w3.org/2000/svg" width="130" height="104">
+<defs>
+  <linearGradient id="roofg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#4338ca"/><stop offset="100%" stop-color="#3730a3"/>
+  </linearGradient>
+  <filter id="bsf"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity=".4"/></filter>
+</defs>
+<!-- Shadow -->
+<rect x="8" y="6" width="129" height="103" rx="5" fill="#000" opacity=".3" filter="url(#bsf)"/>
+<!-- Side face (bottom) -->
+<path d="M10,76 L135,76 L140,98 L5,98 Z" fill="#1e1b4b"/>
+<!-- Roof -->
+<rect x="10" y="8" width="125" height="70" rx="4" fill="url(#roofg)"/>
+<!-- Roof overlays -->
+<rect x="24" y="8" width="32" height="70" fill="#4338ca" opacity=".45"/>
+<rect x="88" y="8" width="36" height="70" fill="#4338ca" opacity=".45"/>
+<!-- Roof highlight -->
+<rect x="10" y="8" width="125" height="4" rx="2" fill="#6366f1" opacity=".4"/>
+<!-- Windows on face -->
+<rect x="14"  y="80" width="11" height="9" rx="1.5" fill="#a5b4fc" opacity=".9"/>
+<rect x="30"  y="80" width="11" height="9" rx="1.5" fill="#a5b4fc" opacity=".9"/>
+<rect x="46"  y="80" width="11" height="9" rx="1.5" fill="#a5b4fc" opacity=".9"/>
+<rect x="62"  y="80" width="11" height="9" rx="1.5" fill="#a5b4fc" opacity=".9"/>
+<rect x="78"  y="80" width="11" height="9" rx="1.5" fill="#a5b4fc" opacity=".9"/>
+<rect x="94"  y="80" width="11" height="9" rx="1.5" fill="#a5b4fc" opacity=".9"/>
+<rect x="110" y="80" width="11" height="9" rx="1.5" fill="#a5b4fc" opacity=".9"/>
+<rect x="126" y="80" width="11" height="9" rx="1.5" fill="#a5b4fc" opacity=".9"/>
+<!-- Lobby -->
+<rect x="50" y="86" width="45" height="12" rx="1.5" fill="#1e1b4b"/>
+<rect x="55" y="88" width="15" height="10" rx="1" fill="#312e81"/>
+<rect x="75" y="88" width="15" height="10" rx="1" fill="#312e81"/>
+<!-- Antenna -->
+<rect x="68" y="2" width="3" height="10" fill="#9ca3af"/>
+<circle cx="69.5" cy="2" r="3.5" fill="#ef4444"/>
+<circle cx="69.5" cy="2" r="2" fill="#fca5a5"/>
+</svg>

@@ -1,0 +1,28 @@
+﻿=== max_tokens=800 ===
+  no_reranker:   rag_eval_20260602T113207Z_no_reranker_t800.json
+  with_reranker: rag_eval_20260602T120045Z_with_reranker_t800.json
+  params: prompt_lang=ru, gen_max_tokens=800, judge=mistral-small-2506
+
+  Metric                               No reranker   With reranker
+  ----------------------------------------------------------------
+  det.paragraph_hit_rate                     0.689           0.822
+  det.paragraph_precision_at_k               0.187           0.218
+  det.paragraph_recall_at_k                  0.644           0.744
+  ragas.context_recall                       0.533           0.614
+  ragas.factual_correctness(mode=f1)         0.398           0.440
+  ragas.faithfulness                         0.691           0.684
+
+=== max_tokens=1536 ===
+  no_reranker:   rag_eval_20260602T120732Z_no_reranker_t1536.json
+  with_reranker: rag_eval_20260602T123538Z_with_reranker_t1536.json
+  params: prompt_lang=ru, gen_max_tokens=1536, judge=mistral-small-2506
+
+  Metric                               No reranker   With reranker
+  ----------------------------------------------------------------
+  det.paragraph_hit_rate                     0.689           0.822
+  det.paragraph_precision_at_k               0.187           0.218
+  det.paragraph_recall_at_k                  0.644           0.744
+  ragas.context_recall                       0.549           0.616
+  ragas.factual_correctness(mode=f1)         0.395           0.464
+  ragas.faithfulness                         0.686           0.626
+

@@ -1,0 +1,27 @@
+-SCENE 6.2 var0 
+TEXT   	  Разрешен ли здесь поворот? 
+ 1. Нет. 
+ 2. Да.
+TEXTPOS 0 450
+TIME 3000
+
+INIT MY_CAR.our_car
+POSITION 7879 2112 
+SPLINE 2 0 0 0 0 28 1000 -1 95 20 24      
+turn -1 0 0 1 
+
+INIT CAR.tractor
+POSITION 8767 2176
+SPLINE 2 -6000 -800 0 16 0 0 0 0 120 0 
+
+ CASE 1
+  SPLINE 33 0 0 0 0 28 1000 81 74 192 0 2000 479 75 44 0      
+c_lost_time 2
+  fine 0
+
+C_ERRORINFO Данная разметка разрешает повернуть на перекрестке (Приложение 2).
+
+ CASE 2
+  SPLINE 3 0 0 0 0 28 1000 81 74 192 0 2000 479 75 44 0 
+  
+END_FILE

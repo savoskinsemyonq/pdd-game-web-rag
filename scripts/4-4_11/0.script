@@ -1,0 +1,20 @@
+TEXT   Несмотря на препятствия, вы успели вовремя - жена была довольна. 
+ Дальше
+TEXTPOS 0 450
+
+INIT MY_CAR.our_car
+POSITION 4735 5120
+SPLINE 2 0 0 0 0 1 500 0 3 0 1   
+
+INIT CAR.ford
+POSITION 4864 4867
+SPLINE 1 0 0 0 0 -28 
+
+INIT CAR.audi
+POSITION 4799 5120
+SPLINE 1 0 0 0 0 20 
+
+CASE 1
+spline 1 0 0 0 0 40 
+
+END_FILE

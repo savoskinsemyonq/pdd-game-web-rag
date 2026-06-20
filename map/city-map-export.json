@@ -1,0 +1,2839 @@
+{
+  "source": "map/city.map",
+  "header": {
+    "width": 192,
+    "height": 192,
+    "itemSize": 64,
+    "spriteFolder": "tex/map",
+    "headerBytes": 272,
+    "worldWidthPx": 12288,
+    "worldHeightPx": 12288
+  },
+  "tileLayer": {
+    "encoding": "uint16 LE row-major (width * y + x)",
+    "nonZeroCells": 7946,
+    "minId": 1,
+    "maxId": 244,
+    "topTileIds": [
+      {
+        "id": 0,
+        "count": 28918
+      },
+      {
+        "id": 1,
+        "count": 2280
+      },
+      {
+        "id": 2,
+        "count": 1271
+      },
+      {
+        "id": 3,
+        "count": 982
+      },
+      {
+        "id": 9,
+        "count": 850
+      },
+      {
+        "id": 11,
+        "count": 805
+      },
+      {
+        "id": 72,
+        "count": 346
+      },
+      {
+        "id": 6,
+        "count": 121
+      },
+      {
+        "id": 66,
+        "count": 119
+      },
+      {
+        "id": 13,
+        "count": 119
+      },
+      {
+        "id": 7,
+        "count": 102
+      },
+      {
+        "id": 151,
+        "count": 81
+      },
+      {
+        "id": 38,
+        "count": 77
+      },
+      {
+        "id": 10,
+        "count": 74
+      },
+      {
+        "id": 145,
+        "count": 64
+      },
+      {
+        "id": 140,
+        "count": 54
+      },
+      {
+        "id": 224,
+        "count": 50
+      },
+      {
+        "id": 73,
+        "count": 37
+      },
+      {
+        "id": 49,
+        "count": 36
+      },
+      {
+        "id": 20,
+        "count": 35
+      },
+      {
+        "id": 14,
+        "count": 33
+      },
+      {
+        "id": 216,
+        "count": 30
+      },
+      {
+        "id": 147,
+        "count": 30
+      },
+      {
+        "id": 37,
+        "count": 25
+      }
+    ],
+    "binFile": "city-map-tiles.bin"
+  },
+  "objects": {
+    "count": 244,
+    "note": "fieldsLeU32 — LE uint32 перед separatorByte (без ведущих нулей); последние два поля обычно X/Y в пикселях (÷ itemSize для индекса клетки).",
+    "items": [
+      {
+        "path": "tex/houses/007.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          7,
+          4104,
+          7304
+        ],
+        "xPx": 4104,
+        "yPx": 7304
+      },
+      {
+        "path": "tex/houses/002.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          2,
+          5064,
+          2248
+        ],
+        "xPx": 5064,
+        "yPx": 2248
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          22,
+          7304,
+          6152
+        ],
+        "xPx": 7304,
+        "yPx": 6152
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          22,
+          7624,
+          6472
+        ],
+        "xPx": 7624,
+        "yPx": 6472
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          21,
+          8072,
+          6088
+        ],
+        "xPx": 8072,
+        "yPx": 6088
+      },
+      {
+        "path": "tex/houses/023.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          23,
+          3016,
+          2248
+        ],
+        "xPx": 3016,
+        "yPx": 2248
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          21,
+          3656,
+          1928
+        ],
+        "xPx": 3656,
+        "yPx": 1928
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          21,
+          3464,
+          2376
+        ],
+        "xPx": 3464,
+        "yPx": 2376
+      },
+      {
+        "path": "tex/houses/006.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          6,
+          6472,
+          2120
+        ],
+        "xPx": 6472,
+        "yPx": 2120
+      },
+      {
+        "path": "tex/houses/010.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          10,
+          5576,
+          3336
+        ],
+        "xPx": 5576,
+        "yPx": 3336
+      },
+      {
+        "path": "tex/houses/010.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          10,
+          5896,
+          2440
+        ],
+        "xPx": 5896,
+        "yPx": 2440
+      },
+      {
+        "path": "tex/houses/014.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          14,
+          4296,
+          2504
+        ],
+        "xPx": 4296,
+        "yPx": 2504
+      },
+      {
+        "path": "tex/houses/009.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          9,
+          1096,
+          3272
+        ],
+        "xPx": 1096,
+        "yPx": 3272
+      },
+      {
+        "path": "tex/houses/019.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          19,
+          1672,
+          3272
+        ],
+        "xPx": 1672,
+        "yPx": 3272
+      },
+      {
+        "path": "tex/houses/011.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          11,
+          7560,
+          712
+        ],
+        "xPx": 7560,
+        "yPx": 712
+      },
+      {
+        "path": "tex/houses/006.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          6,
+          7112,
+          8
+        ],
+        "xPx": 7112,
+        "yPx": 8
+      },
+      {
+        "path": "tex/houses/003.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          3,
+          6472,
+          712
+        ],
+        "xPx": 6472,
+        "yPx": 712
+      },
+      {
+        "path": "tex/houses/008.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          8,
+          6984,
+          968
+        ],
+        "xPx": 6984,
+        "yPx": 968
+      },
+      {
+        "path": "tex/houses/004.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          4,
+          7560,
+          200
+        ],
+        "xPx": 7560,
+        "yPx": 200
+      },
+      {
+        "path": "tex/houses/012.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          12,
+          5512,
+          5896
+        ],
+        "xPx": 5512,
+        "yPx": 5896
+      },
+      {
+        "path": "tex/houses/010.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          10,
+          5960,
+          5064
+        ],
+        "xPx": 5960,
+        "yPx": 5064
+      },
+      {
+        "path": "tex/houses/013.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          13,
+          1672,
+          1864
+        ],
+        "xPx": 1672,
+        "yPx": 1864
+      },
+      {
+        "path": "tex/houses/013.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          13,
+          1608,
+          1160
+        ],
+        "xPx": 1608,
+        "yPx": 1160
+      },
+      {
+        "path": "tex/houses/011.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          11,
+          4936,
+          4744
+        ],
+        "xPx": 4936,
+        "yPx": 4744
+      },
+      {
+        "path": "tex/houses/011.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          11,
+          4936,
+          5000
+        ],
+        "xPx": 4936,
+        "yPx": 5000
+      },
+      {
+        "path": "tex/houses/016.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          16,
+          2824,
+          4488
+        ],
+        "xPx": 2824,
+        "yPx": 4488
+      },
+      {
+        "path": "tex/houses/020.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          20,
+          3848,
+          6728
+        ],
+        "xPx": 3848,
+        "yPx": 6728
+      },
+      {
+        "path": "tex/signs/279.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          279,
+          1352,
+          2440
+        ],
+        "xPx": 1352,
+        "yPx": 2440
+      },
+      {
+        "path": "tex/signs/312.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          312,
+          1352,
+          2440
+        ],
+        "xPx": 1352,
+        "yPx": 2440
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          22,
+          9416,
+          6664
+        ],
+        "xPx": 9416,
+        "yPx": 6664
+      },
+      {
+        "path": "tex/houses/017.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          17,
+          2056,
+          4424
+        ],
+        "xPx": 2056,
+        "yPx": 4424
+      },
+      {
+        "path": "tex/houses/010.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          10,
+          2120,
+          4040
+        ],
+        "xPx": 2120,
+        "yPx": 4040
+      },
+      {
+        "path": "tex/houses/011.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          11,
+          2760,
+          2440
+        ],
+        "xPx": 2760,
+        "yPx": 2440
+      },
+      {
+        "path": "tex/houses/011.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          11,
+          1992,
+          2568
+        ],
+        "xPx": 1992,
+        "yPx": 2568
+      },
+      {
+        "path": "tex/houses/011.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          11,
+          6408,
+          4424
+        ],
+        "xPx": 6408,
+        "yPx": 4424
+      },
+      {
+        "path": "tex/houses/008.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          8,
+          7048,
+          4424
+        ],
+        "xPx": 7048,
+        "yPx": 4424
+      },
+      {
+        "path": "tex/houses/008.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          8,
+          7048,
+          4744
+        ],
+        "xPx": 7048,
+        "yPx": 4744
+      },
+      {
+        "path": "tex/houses/009.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          9,
+          6408,
+          4744
+        ],
+        "xPx": 6408,
+        "yPx": 4744
+      },
+      {
+        "path": "tex/houses/010.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          10,
+          7048,
+          4744
+        ],
+        "xPx": 7048,
+        "yPx": 4744
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          22,
+          8136,
+          5128
+        ],
+        "xPx": 8136,
+        "yPx": 5128
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          22,
+          1288,
+          5448
+        ],
+        "xPx": 1288,
+        "yPx": 5448
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          22,
+          1096,
+          5768
+        ],
+        "xPx": 1096,
+        "yPx": 5768
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          22,
+          1672,
+          5960
+        ],
+        "xPx": 1672,
+        "yPx": 5960
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          22,
+          1672,
+          5320
+        ],
+        "xPx": 1672,
+        "yPx": 5320
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          22,
+          1352,
+          5832
+        ],
+        "xPx": 1352,
+        "yPx": 5832
+      },
+      {
+        "path": "tex/houses/009.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          9,
+          1032,
+          3912
+        ],
+        "xPx": 1032,
+        "yPx": 3912
+      },
+      {
+        "path": "tex/houses/011.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          11,
+          1096,
+          4616
+        ],
+        "xPx": 1096,
+        "yPx": 4616
+      },
+      {
+        "path": "tex/houses/015.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          15,
+          1480,
+          4616
+        ],
+        "xPx": 1480,
+        "yPx": 4616
+      },
+      {
+        "path": "tex/houses/008.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          8,
+          1288,
+          4616
+        ],
+        "xPx": 1288,
+        "yPx": 4616
+      },
+      {
+        "path": "tex/houses/008.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          8,
+          1032,
+          3592
+        ],
+        "xPx": 1032,
+        "yPx": 3592
+      },
+      {
+        "path": "tex/houses/008.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          8,
+          1416,
+          2504
+        ],
+        "xPx": 1416,
+        "yPx": 2504
+      },
+      {
+        "path": "tex/houses/008.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          8,
+          1288,
+          1032
+        ],
+        "xPx": 1288,
+        "yPx": 1032
+      },
+      {
+        "path": "tex/houses/019.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          19,
+          4680,
+          1096
+        ],
+        "xPx": 4680,
+        "yPx": 1096
+      },
+      {
+        "path": "tex/houses/019.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          19,
+          4360,
+          520
+        ],
+        "xPx": 4360,
+        "yPx": 520
+      },
+      {
+        "path": "tex/houses/017.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          17,
+          5704,
+          1160
+        ],
+        "xPx": 5704,
+        "yPx": 1160
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          21,
+          2696,
+          5512
+        ],
+        "xPx": 2696,
+        "yPx": 5512
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          22,
+          968,
+          6472
+        ],
+        "xPx": 968,
+        "yPx": 6472
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          22,
+          1480,
+          6792
+        ],
+        "xPx": 1480,
+        "yPx": 6792
+      },
+      {
+        "path": "tex/houses/015.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          15,
+          2376,
+          6344
+        ],
+        "xPx": 2376,
+        "yPx": 6344
+      },
+      {
+        "path": "tex/houses/015.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          15,
+          1800,
+          7176
+        ],
+        "xPx": 1800,
+        "yPx": 7176
+      },
+      {
+        "path": "tex/houses/013.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          13,
+          1992,
+          6664
+        ],
+        "xPx": 1992,
+        "yPx": 6664
+      },
+      {
+        "path": "tex/houses/003.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          3,
+          2440,
+          7176
+        ],
+        "xPx": 2440,
+        "yPx": 7176
+      },
+      {
+        "path": "tex/houses/024.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          24,
+          520,
+          4424
+        ],
+        "xPx": 520,
+        "yPx": 4424
+      },
+      {
+        "path": "tex/houses/009.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          9,
+          7304,
+          200
+        ],
+        "xPx": 7304,
+        "yPx": 200
+      },
+      {
+        "path": "tex/houses/013.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          13,
+          6536,
+          8
+        ],
+        "xPx": 6536,
+        "yPx": 8
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          21,
+          9096,
+          7944
+        ],
+        "xPx": 9096,
+        "yPx": 7944
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          22,
+          9416,
+          7560
+        ],
+        "xPx": 9416,
+        "yPx": 7560
+      },
+      {
+        "path": "tex/houses/023.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          23,
+          9096,
+          7240
+        ],
+        "xPx": 9096,
+        "yPx": 7240
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          21,
+          1608,
+          4360
+        ],
+        "xPx": 1608,
+        "yPx": 4360
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          21,
+          1800,
+          4360
+        ],
+        "xPx": 1800,
+        "yPx": 4360
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          21,
+          2120,
+          3784
+        ],
+        "xPx": 2120,
+        "yPx": 3784
+      },
+      {
+        "path": "tex/houses/012.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          12,
+          3016,
+          968
+        ],
+        "xPx": 3016,
+        "yPx": 968
+      },
+      {
+        "path": "tex/stripings/031.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          31,
+          6088,
+          3592
+        ],
+        "xPx": 6088,
+        "yPx": 3592
+      },
+      {
+        "path": "tex/stripings/030.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          30,
+          5960,
+          3592
+        ],
+        "xPx": 5960,
+        "yPx": 3592
+      },
+      {
+        "path": "tex/stripings/029.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          29,
+          6152,
+          3592
+        ],
+        "xPx": 6152,
+        "yPx": 3592
+      },
+      {
+        "path": "tex/stripings/009.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          9,
+          6088,
+          3592
+        ],
+        "xPx": 6088,
+        "yPx": 3592
+      },
+      {
+        "path": "tex/stripings/009.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          9,
+          5960,
+          3592
+        ],
+        "xPx": 5960,
+        "yPx": 3592
+      },
+      {
+        "path": "tex/stripings/070.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          70,
+          5960,
+          3592
+        ],
+        "xPx": 5960,
+        "yPx": 3592
+      },
+      {
+        "path": "tex/stripings/071.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          71,
+          6088,
+          3592
+        ],
+        "xPx": 6088,
+        "yPx": 3592
+      },
+      {
+        "path": "tex/stripings/004.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          4,
+          5896,
+          3336
+        ],
+        "xPx": 5896,
+        "yPx": 3336
+      },
+      {
+        "path": "tex/stripings/004.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          4,
+          5896,
+          3336
+        ],
+        "xPx": 5896,
+        "yPx": 3336
+      },
+      {
+        "path": "tex/stripings/004.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          4,
+          5896,
+          3464
+        ],
+        "xPx": 5896,
+        "yPx": 3464
+      },
+      {
+        "path": "tex/stripings/004.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          4,
+          5896,
+          3656
+        ],
+        "xPx": 5896,
+        "yPx": 3656
+      },
+      {
+        "path": "tex/stripings/004.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          4,
+          6152,
+          3656
+        ],
+        "xPx": 6152,
+        "yPx": 3656
+      },
+      {
+        "path": "tex/stripings/068.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          68,
+          5896,
+          3592
+        ],
+        "xPx": 5896,
+        "yPx": 3592
+      },
+      {
+        "path": "tex/stripings/069.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          69,
+          6152,
+          3592
+        ],
+        "xPx": 6152,
+        "yPx": 3592
+      },
+      {
+        "path": "tex/stripings/054.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          54,
+          5896,
+          3336
+        ],
+        "xPx": 5896,
+        "yPx": 3336
+      },
+      {
+        "path": "tex/stripings/009.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          9,
+          6088,
+          3272
+        ],
+        "xPx": 6088,
+        "yPx": 3272
+      },
+      {
+        "path": "tex/stripings/009.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          9,
+          5960,
+          3272
+        ],
+        "xPx": 5960,
+        "yPx": 3272
+      },
+      {
+        "path": "tex/houses/009.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          9,
+          8264,
+          2312
+        ],
+        "xPx": 8264,
+        "yPx": 2312
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          22,
+          7560,
+          2376
+        ],
+        "xPx": 7560,
+        "yPx": 2376
+      },
+      {
+        "path": "tex/houses/012.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          12,
+          4808,
+          2504
+        ],
+        "xPx": 4808,
+        "yPx": 2504
+      },
+      {
+        "path": "tex/houses/013.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          13,
+          5320,
+          2504
+        ],
+        "xPx": 5320,
+        "yPx": 2504
+      },
+      {
+        "path": "tex/signs/181.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          181,
+          5256,
+          200
+        ],
+        "xPx": 5256,
+        "yPx": 200
+      },
+      {
+        "path": "tex/houses/013.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          13,
+          5384,
+          8
+        ],
+        "xPx": 5384,
+        "yPx": 8
+      },
+      {
+        "path": "tex/signs/200.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          200,
+          1288,
+          6088
+        ],
+        "xPx": 1288,
+        "yPx": 6088
+      },
+      {
+        "path": "tex/signs/201.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          201,
+          1032,
+          5448
+        ],
+        "xPx": 1032,
+        "yPx": 5448
+      },
+      {
+        "path": "tex/houses/034.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          34,
+          1160,
+          5192
+        ],
+        "xPx": 1160,
+        "yPx": 5192
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          21,
+          1736,
+          3656
+        ],
+        "xPx": 1736,
+        "yPx": 3656
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          21,
+          1928,
+          3656
+        ],
+        "xPx": 1928,
+        "yPx": 3656
+      },
+      {
+        "path": "tex/signs/183.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          183,
+          1544,
+          3848
+        ],
+        "xPx": 1544,
+        "yPx": 3848
+      },
+      {
+        "path": "tex/signs/014.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          14,
+          1288,
+          2440
+        ],
+        "xPx": 1288,
+        "yPx": 2440
+      },
+      {
+        "path": "tex/signs/202.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          202,
+          1928,
+          7112
+        ],
+        "xPx": 1928,
+        "yPx": 7112
+      },
+      {
+        "path": "tex/signs/155.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          155,
+          3720,
+          6792
+        ],
+        "xPx": 3720,
+        "yPx": 6792
+      },
+      {
+        "path": "tex/signs/203.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          203,
+          3720,
+          7176
+        ],
+        "xPx": 3720,
+        "yPx": 7176
+      },
+      {
+        "path": "tex/signs/205.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          205,
+          3464,
+          7432
+        ],
+        "xPx": 3464,
+        "yPx": 7432
+      },
+      {
+        "path": "tex/signs/161.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          161,
+          3720,
+          4424
+        ],
+        "xPx": 3720,
+        "yPx": 4424
+      },
+      {
+        "path": "tex/signs/206.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          206,
+          6728,
+          5576
+        ],
+        "xPx": 6728,
+        "yPx": 5576
+      },
+      {
+        "path": "tex/signs/208.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          208,
+          6344,
+          5832
+        ],
+        "xPx": 6344,
+        "yPx": 5832
+      },
+      {
+        "path": "tex/signs/208.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          208,
+          7112,
+          5320
+        ],
+        "xPx": 7112,
+        "yPx": 5320
+      },
+      {
+        "path": "tex/signs/206.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          206,
+          6792,
+          5448
+        ],
+        "xPx": 6792,
+        "yPx": 5448
+      },
+      {
+        "path": "tex/signs/210.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          210,
+          7112,
+          4296
+        ],
+        "xPx": 7112,
+        "yPx": 4296
+      },
+      {
+        "path": "tex/signs/010.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          10,
+          5896,
+          200
+        ],
+        "xPx": 5896,
+        "yPx": 200
+      },
+      {
+        "path": "tex/signs/214.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          214,
+          4040,
+          968
+        ],
+        "xPx": 4040,
+        "yPx": 968
+      },
+      {
+        "path": "tex/signs/043.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          43,
+          4808,
+          1480
+        ],
+        "xPx": 4808,
+        "yPx": 1480
+      },
+      {
+        "path": "tex/signs/217.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          217,
+          4360,
+          1480
+        ],
+        "xPx": 4360,
+        "yPx": 1480
+      },
+      {
+        "path": "tex/signs/127.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          127,
+          2120,
+          5320
+        ],
+        "xPx": 2120,
+        "yPx": 5320
+      },
+      {
+        "path": "tex/signs/219.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          219,
+          2376,
+          5448
+        ],
+        "xPx": 2376,
+        "yPx": 5448
+      },
+      {
+        "path": "tex/signs/069.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          69,
+          2824,
+          5192
+        ],
+        "xPx": 2824,
+        "yPx": 5192
+      },
+      {
+        "path": "tex/signs/230.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          230,
+          3720,
+          3656
+        ],
+        "xPx": 3720,
+        "yPx": 3656
+      },
+      {
+        "path": "tex/signs/230.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          230,
+          3464,
+          3336
+        ],
+        "xPx": 3464,
+        "yPx": 3336
+      },
+      {
+        "path": "tex/signs/227.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          227,
+          4680,
+          5192
+        ],
+        "xPx": 4680,
+        "yPx": 5192
+      },
+      {
+        "path": "tex/signs/199.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          199,
+          2440,
+          6088
+        ],
+        "xPx": 2440,
+        "yPx": 6088
+      },
+      {
+        "path": "tex/signs/217.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          217,
+          7496,
+          1736
+        ],
+        "xPx": 7496,
+        "yPx": 1736
+      },
+      {
+        "path": "tex/signs/218.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          218,
+          8072,
+          1800
+        ],
+        "xPx": 8072,
+        "yPx": 1800
+      },
+      {
+        "path": "tex/signs/236.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          236,
+          8648,
+          2696
+        ],
+        "xPx": 8648,
+        "yPx": 2696
+      },
+      {
+        "path": "tex/signs/229.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          229,
+          6472,
+          2696
+        ],
+        "xPx": 6472,
+        "yPx": 2696
+      },
+      {
+        "path": "tex/signs/225.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          225,
+          5832,
+          2696
+        ],
+        "xPx": 5832,
+        "yPx": 2696
+      },
+      {
+        "path": "tex/signs/191.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          191,
+          1288,
+          712
+        ],
+        "xPx": 1288,
+        "yPx": 712
+      },
+      {
+        "path": "tex/signs/237.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          237,
+          1352,
+          456
+        ],
+        "xPx": 1352,
+        "yPx": 456
+      },
+      {
+        "path": "tex/signs/211.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          211,
+          1928,
+          6344
+        ],
+        "xPx": 1928,
+        "yPx": 6344
+      },
+      {
+        "path": "tex/signs/211.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          211,
+          3720,
+          5128
+        ],
+        "xPx": 3720,
+        "yPx": 5128
+      },
+      {
+        "path": "tex/signs/212.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          212,
+          3400,
+          7112
+        ],
+        "xPx": 3400,
+        "yPx": 7112
+      },
+      {
+        "path": "tex/signs/240.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          240,
+          2248,
+          2696
+        ],
+        "xPx": 2248,
+        "yPx": 2696
+      },
+      {
+        "path": "tex/houses/009.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          9,
+          2120,
+          3336
+        ],
+        "xPx": 2120,
+        "yPx": 3336
+      },
+      {
+        "path": "tex/houses/001.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          1,
+          3976,
+          5960
+        ],
+        "xPx": 3976,
+        "yPx": 5960
+      },
+      {
+        "path": "tex/signs/191.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          191,
+          5000,
+          456
+        ],
+        "xPx": 5000,
+        "yPx": 456
+      },
+      {
+        "path": "tex/signs/218.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          218,
+          3784,
+          1352
+        ],
+        "xPx": 3784,
+        "yPx": 1352
+      },
+      {
+        "path": "tex/signs/218.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          218,
+          4232,
+          1864
+        ],
+        "xPx": 4232,
+        "yPx": 1864
+      },
+      {
+        "path": "tex/signs/243.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          243,
+          4296,
+          2696
+        ],
+        "xPx": 4296,
+        "yPx": 2696
+      },
+      {
+        "path": "tex/signs/211.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          211,
+          4680,
+          3208
+        ],
+        "xPx": 4680,
+        "yPx": 3208
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          22,
+          10568,
+          3656
+        ],
+        "xPx": 10568,
+        "yPx": 3656
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          22,
+          10632,
+          3400
+        ],
+        "xPx": 10632,
+        "yPx": 3400
+      },
+      {
+        "path": "tex/houses/022.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          22,
+          10888,
+          3848
+        ],
+        "xPx": 10888,
+        "yPx": 3848
+      },
+      {
+        "path": "tex/signs/082.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          82,
+          6408,
+          3208
+        ],
+        "xPx": 6408,
+        "yPx": 3208
+      },
+      {
+        "path": "tex/signs/221.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          221,
+          2376,
+          5192
+        ],
+        "xPx": 2376,
+        "yPx": 5192
+      },
+      {
+        "path": "tex/signs/016.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          16,
+          9928,
+          3208
+        ],
+        "xPx": 9928,
+        "yPx": 3208
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          21,
+          10888,
+          3400
+        ],
+        "xPx": 10888,
+        "yPx": 3400
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          21,
+          11080,
+          3656
+        ],
+        "xPx": 11080,
+        "yPx": 3656
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          21,
+          11464,
+          3592
+        ],
+        "xPx": 11464,
+        "yPx": 3592
+      },
+      {
+        "path": "tex/houses/023.tga.GLt",
+        "separatorByte": 1,
+        "fieldsLeU32": [
+          23,
+          10376,
+          3528
+        ],
+        "xPx": 10376,
+        "yPx": 3528
+      },
+      {
+        "path": "tex/houses/009.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          9,
+          3272,
+          7304
+        ],
+        "xPx": 3272,
+        "yPx": 7304
+      },
+      {
+        "path": "tex/houses/014.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          14,
+          1928,
+          7752
+        ],
+        "xPx": 1928,
+        "yPx": 7752
+      },
+      {
+        "path": "tex/houses/015.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          15,
+          1928,
+          8264
+        ],
+        "xPx": 1928,
+        "yPx": 8264
+      },
+      {
+        "path": "tex/houses/016.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          16,
+          3336,
+          8328
+        ],
+        "xPx": 3336,
+        "yPx": 8328
+      },
+      {
+        "path": "tex/houses/017.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          17,
+          2696,
+          5704
+        ],
+        "xPx": 2696,
+        "yPx": 5704
+      },
+      {
+        "path": "tex/signs/025.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          25,
+          3144,
+          6088
+        ],
+        "xPx": 3144,
+        "yPx": 6088
+      },
+      {
+        "path": "tex/signs/169.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          169,
+          3464,
+          7752
+        ],
+        "xPx": 3464,
+        "yPx": 7752
+      },
+      {
+        "path": "tex/signs/151.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          151,
+          3720,
+          7944
+        ],
+        "xPx": 3720,
+        "yPx": 7944
+      },
+      {
+        "path": "tex/signs/196.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          196,
+          3720,
+          7752
+        ],
+        "xPx": 3720,
+        "yPx": 7752
+      },
+      {
+        "path": "tex/signs/196.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          196,
+          2824,
+          7944
+        ],
+        "xPx": 2824,
+        "yPx": 7944
+      },
+      {
+        "path": "tex/signs/151.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          151,
+          2824,
+          7752
+        ],
+        "xPx": 2824,
+        "yPx": 7752
+      },
+      {
+        "path": "tex/signs/016.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          16,
+          6984,
+          7112
+        ],
+        "xPx": 6984,
+        "yPx": 7112
+      },
+      {
+        "path": "tex/houses/012.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          12,
+          6408,
+          7368
+        ],
+        "xPx": 6408,
+        "yPx": 7368
+      },
+      {
+        "path": "tex/signs/169.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          169,
+          5768,
+          6984
+        ],
+        "xPx": 5768,
+        "yPx": 6984
+      },
+      {
+        "path": "tex/signs/169.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          169,
+          3080,
+          7944
+        ],
+        "xPx": 3080,
+        "yPx": 7944
+      },
+      {
+        "path": "tex/signs/181.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          181,
+          3208,
+          8008
+        ],
+        "xPx": 3208,
+        "yPx": 8008
+      },
+      {
+        "path": "tex/houses/031.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          31,
+          4808,
+          7816
+        ],
+        "xPx": 4808,
+        "yPx": 7816
+      },
+      {
+        "path": "tex/signs/173.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          173,
+          4744,
+          8072
+        ],
+        "xPx": 4744,
+        "yPx": 8072
+      },
+      {
+        "path": "tex/signs/109.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          109,
+          4744,
+          7880
+        ],
+        "xPx": 4744,
+        "yPx": 7880
+      },
+      {
+        "path": "tex/signs/244.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          244,
+          4936,
+          6984
+        ],
+        "xPx": 4936,
+        "yPx": 6984
+      },
+      {
+        "path": "tex/signs/231.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          231,
+          5000,
+          6984
+        ],
+        "xPx": 5000,
+        "yPx": 6984
+      },
+      {
+        "path": "tex/signs/244.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          244,
+          4936,
+          6984
+        ],
+        "xPx": 4936,
+        "yPx": 6984
+      },
+      {
+        "path": "tex/signs/231.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          231,
+          5320,
+          6728
+        ],
+        "xPx": 5320,
+        "yPx": 6728
+      },
+      {
+        "path": "tex/signs/244.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          244,
+          5384,
+          6728
+        ],
+        "xPx": 5384,
+        "yPx": 6728
+      },
+      {
+        "path": "tex/signs/247.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          247,
+          3464,
+          5192
+        ],
+        "xPx": 3464,
+        "yPx": 5192
+      },
+      {
+        "path": "tex/signs/254.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          254,
+          6664,
+          1544
+        ],
+        "xPx": 6664,
+        "yPx": 1544
+      },
+      {
+        "path": "tex/signs/197.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          197,
+          1608,
+          6792
+        ],
+        "xPx": 1608,
+        "yPx": 6792
+      },
+      {
+        "path": "tex/signs/003.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          3,
+          1544,
+          6600
+        ],
+        "xPx": 1544,
+        "yPx": 6600
+      },
+      {
+        "path": "tex/signs/211.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          211,
+          2056,
+          6024
+        ],
+        "xPx": 2056,
+        "yPx": 6024
+      },
+      {
+        "path": "tex/signs/197.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          197,
+          1992,
+          5768
+        ],
+        "xPx": 1992,
+        "yPx": 5768
+      },
+      {
+        "path": "tex/signs/003.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          3,
+          1992,
+          5512
+        ],
+        "xPx": 1992,
+        "yPx": 5512
+      },
+      {
+        "path": "tex/houses/021.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          21,
+          1800,
+          5448
+        ],
+        "xPx": 1800,
+        "yPx": 5448
+      },
+      {
+        "path": "tex/houses/009.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          9,
+          2888,
+          3464
+        ],
+        "xPx": 2888,
+        "yPx": 3464
+      },
+      {
+        "path": "tex/signs/215.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          215,
+          5064,
+          3016
+        ],
+        "xPx": 5064,
+        "yPx": 3016
+      },
+      {
+        "path": "tex/houses/013.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          13,
+          2760,
+          3208
+        ],
+        "xPx": 2760,
+        "yPx": 3208
+      },
+      {
+        "path": "tex/signs/200.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          200,
+          8712,
+          2248
+        ],
+        "xPx": 8712,
+        "yPx": 2248
+      },
+      {
+        "path": "tex/signs/234.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          234,
+          8968,
+          2568
+        ],
+        "xPx": 8968,
+        "yPx": 2568
+      },
+      {
+        "path": "tex/houses/031.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          31,
+          8904,
+          2440
+        ],
+        "xPx": 8904,
+        "yPx": 2440
+      },
+      {
+        "path": "tex/houses/030.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          30,
+          4680,
+          456
+        ],
+        "xPx": 4680,
+        "yPx": 456
+      },
+      {
+        "path": "tex/houses/001.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          1,
+          5512,
+          456
+        ],
+        "xPx": 5512,
+        "yPx": 456
+      },
+      {
+        "path": "tex/houses/026.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          26,
+          4296,
+          1992
+        ],
+        "xPx": 4296,
+        "yPx": 1992
+      },
+      {
+        "path": "tex/houses/032.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          32,
+          5960,
+          1992
+        ],
+        "xPx": 5960,
+        "yPx": 1992
+      },
+      {
+        "path": "tex/houses/037.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          37,
+          5640,
+          1800
+        ],
+        "xPx": 5640,
+        "yPx": 1800
+      },
+      {
+        "path": "tex/houses/008.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          8,
+          4232,
+          5128
+        ],
+        "xPx": 4232,
+        "yPx": 5128
+      },
+      {
+        "path": "tex/houses/011.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          11,
+          3592,
+          1224
+        ],
+        "xPx": 3592,
+        "yPx": 1224
+      },
+      {
+        "path": "tex/houses/011.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          11,
+          2760,
+          968
+        ],
+        "xPx": 2760,
+        "yPx": 968
+      },
+      {
+        "path": "tex/houses/014.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          14,
+          4360,
+          1736
+        ],
+        "xPx": 4360,
+        "yPx": 1736
+      },
+      {
+        "path": "tex/signs/255.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          255,
+          2312,
+          6984
+        ],
+        "xPx": 2312,
+        "yPx": 6984
+      },
+      {
+        "path": "tex/signs/257.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          257,
+          2376,
+          6984
+        ],
+        "xPx": 2376,
+        "yPx": 6984
+      },
+      {
+        "path": "tex/houses/013.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          13,
+          3208,
+          456
+        ],
+        "xPx": 3208,
+        "yPx": 456
+      },
+      {
+        "path": "tex/houses/013.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          13,
+          2824,
+          8
+        ],
+        "xPx": 2824,
+        "yPx": 8
+      },
+      {
+        "path": "tex/houses/009.tga.GLt",
+        "separatorByte": 3,
+        "fieldsLeU32": [
+          9,
+          4808,
+          4488
+        ],
+        "xPx": 4808,
+        "yPx": 4488
+      },
+      {
+        "path": "tex/signs/032.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          32,
+          4104,
+          4296
+        ],
+        "xPx": 4104,
+        "yPx": 4296
+      },
+      {
+        "path": "tex/signs/014.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          14,
+          4360,
+          4040
+        ],
+        "xPx": 4360,
+        "yPx": 4040
+      },
+      {
+        "path": "tex/houses/032.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          32,
+          1608,
+          520
+        ],
+        "xPx": 1608,
+        "yPx": 520
+      },
+      {
+        "path": "tex/houses/033.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          33,
+          1928,
+          456
+        ],
+        "xPx": 1928,
+        "yPx": 456
+      },
+      {
+        "path": "tex/signs/170.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          170,
+          3400,
+          2696
+        ],
+        "xPx": 3400,
+        "yPx": 2696
+      },
+      {
+        "path": "tex/signs/244.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          244,
+          5000,
+          7752
+        ],
+        "xPx": 5000,
+        "yPx": 7752
+      },
+      {
+        "path": "tex/signs/244.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          244,
+          5320,
+          7496
+        ],
+        "xPx": 5320,
+        "yPx": 7496
+      },
+      {
+        "path": "tex/signs/231.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          231,
+          4936,
+          7752
+        ],
+        "xPx": 4936,
+        "yPx": 7752
+      },
+      {
+        "path": "tex/signs/231.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          231,
+          5384,
+          7496
+        ],
+        "xPx": 5384,
+        "yPx": 7496
+      },
+      {
+        "path": "tex/signs/000.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          6920,
+          1736
+        ],
+        "xPx": 6920,
+        "yPx": 1736
+      },
+      {
+        "path": "tex/trafficlights/000.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          4040,
+          328
+        ],
+        "xPx": 4040,
+        "yPx": 328
+      },
+      {
+        "path": "tex/trafficlights/002.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          2,
+          1224,
+          1736
+        ],
+        "xPx": 1224,
+        "yPx": 1736
+      },
+      {
+        "path": "tex/trafficlights/004.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          1,
+          4,
+          968,
+          1352
+        ],
+        "xPx": 968,
+        "yPx": 1352
+      },
+      {
+        "path": "tex/trafficlights/005.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          2,
+          5,
+          1224,
+          1352
+        ],
+        "xPx": 1224,
+        "yPx": 1352
+      },
+      {
+        "path": "tex/trafficlights/004.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          3,
+          4,
+          2824,
+          6792
+        ],
+        "xPx": 2824,
+        "yPx": 6792
+      },
+      {
+        "path": "tex/trafficlights/005.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          4,
+          5,
+          3080,
+          6792
+        ],
+        "xPx": 3080,
+        "yPx": 6792
+      },
+      {
+        "path": "tex/trafficlights/003.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          5,
+          3,
+          2824,
+          7112
+        ],
+        "xPx": 2824,
+        "yPx": 7112
+      },
+      {
+        "path": "tex/trafficlights/002.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          6,
+          2,
+          3080,
+          7112
+        ],
+        "xPx": 3080,
+        "yPx": 7112
+      },
+      {
+        "path": "tex/trafficlights/006.tga.GLt",
+        "separatorByte": 2,
+        "fieldsLeU32": [
+          7,
+          6,
+          5064,
+          5576
+        ],
+        "xPx": 5064,
+        "yPx": 5576
+      },
+      {
+        "path": "tex/trafficlights/006.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          8,
+          6,
+          5256,
+          5448
+        ],
+        "xPx": 5256,
+        "yPx": 5448
+      },
+      {
+        "path": "tex/trafficlights/002.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          9,
+          2,
+          11016,
+          11016
+        ],
+        "xPx": 11016,
+        "yPx": 11016
+      },
+      {
+        "path": "tex/trafficlights/005.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          10,
+          5,
+          4232,
+          200
+        ],
+        "xPx": 4232,
+        "yPx": 200
+      },
+      {
+        "path": "tex/trafficlights/003.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          11,
+          3,
+          3784,
+          456
+        ],
+        "xPx": 3784,
+        "yPx": 456
+      },
+      {
+        "path": "tex/trafficlights/002.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          12,
+          2,
+          4232,
+          456
+        ],
+        "xPx": 4232,
+        "yPx": 456
+      },
+      {
+        "path": "tex/trafficlights/005.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          13,
+          5,
+          4232,
+          200
+        ],
+        "xPx": 4232,
+        "yPx": 200
+      },
+      {
+        "path": "tex/trafficlights/002.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          14,
+          2,
+          3784,
+          3208
+        ],
+        "xPx": 3784,
+        "yPx": 3208
+      },
+      {
+        "path": "tex/trafficlights/005.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          15,
+          5,
+          6408,
+          2696
+        ],
+        "xPx": 6408,
+        "yPx": 2696
+      },
+      {
+        "path": "tex/trafficlights/004.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          16,
+          4,
+          6088,
+          2632
+        ],
+        "xPx": 6088,
+        "yPx": 2632
+      },
+      {
+        "path": "tex/trafficlights/002.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          17,
+          2,
+          6152,
+          3272
+        ],
+        "xPx": 6152,
+        "yPx": 3272
+      },
+      {
+        "path": "tex/trafficlights/003.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          18,
+          3,
+          5896,
+          3272
+        ],
+        "xPx": 5896,
+        "yPx": 3272
+      },
+      {
+        "path": "tex/trafficlights/005.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          19,
+          5,
+          4232,
+          2696
+        ],
+        "xPx": 4232,
+        "yPx": 2696
+      },
+      {
+        "path": "tex/trafficlights/004.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          20,
+          4,
+          3848,
+          2696
+        ],
+        "xPx": 3848,
+        "yPx": 2696
+      },
+      {
+        "path": "tex/trafficlights/003.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          21,
+          3,
+          3912,
+          3144
+        ],
+        "xPx": 3912,
+        "yPx": 3144
+      },
+      {
+        "path": "tex/trafficlights/005.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          22,
+          5,
+          2696,
+          200
+        ],
+        "xPx": 2696,
+        "yPx": 200
+      },
+      {
+        "path": "tex/trafficlights/002.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          23,
+          2,
+          2696,
+          456
+        ],
+        "xPx": 2696,
+        "yPx": 456
+      },
+      {
+        "path": "tex/trafficlights/003.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          24,
+          3,
+          2248,
+          456
+        ],
+        "xPx": 2248,
+        "yPx": 456
+      },
+      {
+        "path": "tex/trafficlights/000.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          25,
+          0,
+          2504,
+          328
+        ],
+        "xPx": 2504,
+        "yPx": 328
+      },
+      {
+        "path": "tex/trafficlights/004.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          26,
+          4,
+          5064,
+          776
+        ],
+        "xPx": 5064,
+        "yPx": 776
+      },
+      {
+        "path": "tex/trafficlights/005.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          27,
+          5,
+          5384,
+          840
+        ],
+        "xPx": 5384,
+        "yPx": 840
+      },
+      {
+        "path": "tex/trafficlights/002.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          28,
+          2,
+          5384,
+          1096
+        ],
+        "xPx": 5384,
+        "yPx": 1096
+      },
+      {
+        "path": "tex/trafficlights/003.tga.GLt",
+        "separatorByte": 0,
+        "fieldsLeU32": [
+          29,
+          3,
+          5064,
+          1096
+        ],
+        "xPx": 5064,
+        "yPx": 1096
+      }
+    ]
+  },
+  "companionFiles": {
+    "map/city": "настройки редактора: Width, Height, ItemSize, SpriteFolder, MapFile",
+    "map/tl": "строки вида «NNN a b» — справочник типов тайлов/слоёв для светофоров",
+    "map/color": "RGB палитра редактора (по строкам)"
+  }
+}

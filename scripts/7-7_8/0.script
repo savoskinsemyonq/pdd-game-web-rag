@@ -1,0 +1,29 @@
+-SCENE 7.8 var0 
+TEXT   	  Нарушает ли водитель легкового автомобиля Правила? 
+ 1. Да. 
+ 2. Нет.
+TEXTPOS 0 450
+TIME 2000
+
+INIT MY_CAR.ment
+POSITION 3968 2048 
+SPLINE 2 0 0 0 0 60 1000 -1 262 0 24                 
+
+INIT CAR.lada
+POSITION 4096 2175 
+SPLINE 2 -2000 0 300 0 -116 0 0 0 0 -88 
+turn 0 1
+
+STATE 17
+
+CASE 1
+SPLINE 2 0 0 0 0 60 1000 1 396 0 24        
+
+CASE 2
+SPLINE 2 0 0 0 0 60 1000 1 396 0 24       
+
+fine 0
+
+C_ERRORINFO Поворот в данном месте разрешен только со стороны прерывистой линии (Приложение 2).
+
+END_FILE

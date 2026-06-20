@@ -1,0 +1,48 @@
+-SCENE 5.8 var0 
+TEXT   	  Кто должен уступить дорогу? 
+ 1. Водитель машины «Скорой помощи». 
+ 2. Водитель трамвая.
+TEXTPOS 0 450
+TIME 3000
+
+INIT MY_CAR.pedestrian1
+POSITION 2782 4415 
+SPLINE 2 0 0 0 -20 0 3000 -498 -1 -36 0                
+
+INIT CAR.tram
+POSITION 3603 4307 
+SPLINE 1 1000 0 0 32 0 
+
+INIT CAR.ford
+POSITION 3647 4341 
+SPLINE 1 1000 0 0 0 -36 
+
+INIT CAR.tram3
+POSITION 2560 4307 
+SPLINE 1 1000 0 0 32 0    
+
+INIT CAR.emergency
+POSITION 2654 4415 
+SPLINE 2 -2000 0 300 0 -116 0 0 0 0 -88
+turn 0 3
+
+CASE 1
+SPLINE 3 1000 0 0 -36 0 3000 -5 -311 -32 -68 4000 -96 -319 -32 -28        
+c_init car.tram3
+c_spline 2 2000 0 0 24 0 3500 1037 3 20 0     
+c_init car.emergency
+c_spline 4 0 0 0 0 -40 1000 0 -183 -36 -72 2000 -35 -263 0 -84 3000 -34 -829 0 -24turn 0 3
+ 
+fine 0
+
+C_ERRORINFO Автомобиль «Скорой помощи» с включенным проблесковым маячком и звуковым сигналом имеет преимущество перед всеми транспортными средствами (п. 3.1).
+
+CASE 2
+SPLINE 3 1000 0 0 -36 0 3000 -5 -311 -32 -68 4000 -96 -319 -32 -28        
+c_init car.tram3
+c_spline 2 2000 0 0 24 0 3500 1037 3 20 0     
+c_init car.emergency
+c_spline 4 0 0 0 0 -40 1000 0 -183 -36 -72 2000 -35 -263 0 -84 3000 -34 -829 0 -24
+turn 0 3
+
+END_FILE

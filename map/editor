@@ -1,0 +1,12 @@
+string Background = "tex\editor.tga.GLt";
+int Border = 8;
+int PanelSize = 216;
+int PanelLocation = 1;
+
+class Map {
+	int Width = 192;
+	int Height = 192;
+	int ItemSize = 64;
+	string SpriteFolder = "tex\map";
+	string MapFile = "map\city.map";
+};

@@ -1,0 +1,39 @@
+-SCENE 5.2 var0 
+TEXT   	 Как вы считаете, кто должен проехать первым в данной ситуации? 
+ 1. Грузовик. 
+ 2. Легковой автомобиль.
+TEXTPOS 0 0
+TIME 2000
+
+INIT MY_CAR.pedestrian1
+POSITION 2143 6144 
+SPLINE 2 0 0 0 24 0 1000 261 0 20 0        
+ 
+INIT CAR.truck
+POSITION 2240 6122
+SPLINE 2 -2000 0 -400 0 116 0 0 0 0 88   
+turn -1 0 0 1
+ 
+INIT CAR.gazel
+POSITION 2176 6271
+SPLINE 2 -2000 -900 0 16 0 0 0 0 120 0  
+
+CASE 1
+  SPLINE 1 3000 0 0 20 0           
+  c_init car.truck
+  c_spline 3 0 0 0 0 36 1000 82 146 272 0 2000 664 147 28 0     
+  c_init CAR.gazel
+  c_spline 2 1000 0 0 20 0 3000 719 0 28 0     
+
+  fine 0
+
+C_ERRORINFO Легковой автомобиль находится на главной дороге, значит, грузовик должен уступить дорогу (п. 13.9).
+
+CASE 2
+  SPLINE 1 3000 0 0 20 0        
+  c_init car.truck
+  c_spline 3 1000 0 0 0 36 2000 82 146 272 0 3000 664 147 28 0    
+  c_init CAR.gazel
+  c_spline 2 0 0 0 20 0 2000 719 0 28 0  
+
+END_FILE

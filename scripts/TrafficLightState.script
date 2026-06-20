@@ -1,0 +1,130 @@
+STATE 1
+trafficlight.1 0
+trafficlight.2 0
+trafficlight.3 2
+
+
+STATE 2
+trafficlight.1 1
+trafficlight.2 1
+trafficlight.3 3
+
+STATE 33
+trafficlight.1 2
+trafficlight.2 2
+trafficlight.3 0
+
+STATE 3
+trafficlight.4 0
+trafficlight.5 2
+trafficlight.6 2
+trafficlight.7 0
+
+STATE 4
+trafficlight.4 2
+trafficlight.5 0
+trafficlight.6 0
+trafficlight.7 2
+
+STATE 5
+trafficlight.11 0
+trafficlight.14 0
+trafficlight.12 0
+trafficlight.13 2
+
+STATE 6
+trafficlight.11 1
+trafficlight.14 0
+trafficlight.12 1
+trafficlight.13 0
+
+STATE 7
+trafficlight.11 2
+trafficlight.14 2
+trafficlight.12 2
+trafficlight.13 0
+
+STATE 8
+trafficlight.16 3
+trafficlight.17 3
+trafficlight.18 5
+trafficlight.19 5
+
+STATE 9
+trafficlight.20 0
+trafficlight.21 2
+trafficlight.22 0
+
+STATE 10
+trafficlight.20 1
+trafficlight.21 3
+trafficlight.22 1
+
+STATE 11
+trafficlight.20 2
+trafficlight.21 0
+trafficlight.22 2
+
+STATE 12
+trafficlight.23 5
+trafficlight.24 5
+trafficlight.25 5
+trafficlight.26 0
+
+STATE 13
+trafficlight.23 5
+trafficlight.24 5
+trafficlight.25 5
+trafficlight.26 1
+
+STATE 14
+trafficlight.27 5
+trafficlight.28 5
+trafficlight.29 5
+trafficlight.30 5
+
+STATE 15
+trafficlight.8 0
+trafficlight.9 0
+
+STATE 16
+trafficlight.8 1
+trafficlight.9 1
+
+STATE 17
+trafficlight.20 0
+trafficlight.21 2
+trafficlight.22 0
+
+STATE 18
+trafficlight.20 2
+trafficlight.21 0
+trafficlight.22 2
+
+STATE 19
+trafficlight.16 2
+trafficlight.17 0
+trafficlight.18 2
+trafficlight.19 0
+
+STATE 20
+trafficlight.16 3
+trafficlight.17 1
+trafficlight.18 3
+trafficlight.19 1
+
+STATE 21
+trafficlight.16 0
+trafficlight.17 2
+trafficlight.18 0
+trafficlight.19 2
+
+STATE 22
+trafficlight.27 0
+trafficlight.28 2
+trafficlight.29 0
+trafficlight.30 2
+
+
+
+END_FILE

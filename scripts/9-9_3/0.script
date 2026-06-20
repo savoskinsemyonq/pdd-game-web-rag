@@ -1,0 +1,48 @@
+-SCENE 9.3 var0 
+TEXT   	 Должны ли вы уступить дорогу грузовику, приближающемуся слева? 
+ 1. Да. 
+ 2. Нет.
+TEXTPOS 0 450
+TIME 3000
+
+INIT MY_CAR.our_car_y
+POSITION 3487 7040 
+SPLINE 2 0 0 0 56 0 1000 319 0 32 0          
+turn -1 0 0 2
+
+INIT CAR.truck1
+POSITION 3584 6910
+SPLINE 2 -2000 0 -300 0 116 0 0 0 0 88    
+
+INIT CAR.audi
+POSITION 2943 7103
+SPLINE 1 0 0 0 0 24 
+
+INIT CAR.truck
+POSITION 2943 7209
+SPLINE 1 0 0 0 0 24
+
+INIT CAR.ford
+POSITION 2943 7303
+SPLINE 1 0 0 0 0 24
+
+INIT CAR.lada
+POSITION 2943 7402
+SPLINE 1 0 0 0 0 24
+
+STATE 25
+
+ CASE 1
+  SPLINE 3 1000 0 0 36 0 2000 92 92 0 332 3000 92 223 0 48 
+  c_init car.truck1
+  c_spline 2 0 0 0 0 36 3000 -1 1159 0 48   
+ CASE 2
+  SPLINE 3 0 0 0 36 0 1000 92 92 0 332 2000 94 266 0 48 
+  c_init car.truck1
+  c_spline 2 10000 0 0 0 36 30000 -1 1159 0 48      
+
+  fine 1000
+
+C_ERRORINFO Грузовик находится на главной дороге, нужно уступить ему дорогу (п. 13.9). Штраф 1000 руб. (12.13 ч.2).
+
+END_FILE

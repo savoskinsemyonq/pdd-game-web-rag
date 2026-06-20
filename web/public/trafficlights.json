@@ -1,0 +1,231 @@
+{
+  "lights": [
+    {
+      "id": 1,
+      "x": 931,
+      "y": 993,
+      "flipY": false,
+      "missionId": "mission1"
+    },
+    {
+      "id": 3,
+      "x": 931,
+      "y": 500,
+      "sideView": true,
+      "missionId": "mission1"
+    },
+    {
+      "id": 2,
+      "x": 702,
+      "y": 500,
+      "backView": true,
+      "missionId": "mission1"
+    },
+    {
+      "id": 4,
+      "x": 3159,
+      "y": 6725,
+      "backView": true,
+      "missionId": "mission2"
+    },
+    {
+      "id": 5,
+      "x": 3437,
+      "y": 6725,
+      "sideView": true,
+      "missionId": "mission2"
+    },
+    {
+      "id": 6,
+      "x": 3160,
+      "y": 7108,
+      "sideView": true,
+      "missionId": "mission2"
+    },
+    {
+      "id": 7,
+      "x": 3443,
+      "y": 7107,
+      "missionId": "mission2"
+    },
+    {
+      "id": 8,
+      "x": 5861,
+      "y": 5351,
+      "type": "barrier",
+      "rotation": -90,
+      "missionId": "mission2"
+    },
+    {
+      "id": 9,
+      "x": 6034,
+      "y": 5050,
+      "type": "barrier",
+      "rotation": 90,
+      "missionId": "mission2"
+    },
+    {
+      "id": 11,
+      "x": 4164,
+      "y": 315,
+      "sideView": true,
+      "missionId": "mission3"
+    },
+    {
+      "id": 12,
+      "x": 3659,
+      "y": 621,
+      "sideView": true,
+      "missionId": "mission3"
+    },
+    {
+      "id": 13,
+      "x": 4173,
+      "y": 624,
+      "missionId": "mission3"
+    },
+    {
+      "id": 16,
+      "x": 6633,
+      "y": 3082,
+      "sideView": true,
+      "missionId": "mission6"
+    },
+    {
+      "id": 17,
+      "x": 6273,
+      "y": 3001,
+      "backView": true,
+      "missionId": "mission6"
+    },
+    {
+      "id": 20,
+      "x": 4029,
+      "y": 3079,
+      "sideView": true,
+      "missionId": "mission6"
+    },
+    {
+      "id": 21,
+      "x": 3595,
+      "y": 3080,
+      "backView": true,
+      "missionId": "mission6"
+    },
+    {
+      "id": 22,
+      "x": 3402,
+      "y": 216,
+      "missionId": "mission7",
+      "sideView": true
+    },
+    {
+      "id": 23,
+      "x": 2898,
+      "y": 530,
+      "missionId": "mission7",
+      "sideView": true
+    },
+    {
+      "id": 24,
+      "x": 3412,
+      "y": 527,
+      "missionId": "mission7"
+    },
+    {
+      "id": 25,
+      "x": 6261,
+      "y": 909,
+      "missionId": "mission7",
+      "backView": true
+    },
+    {
+      "id": 26,
+      "x": 6620,
+      "y": 985,
+      "missionId": "mission7",
+      "sideView": true
+    },
+    {
+      "id": 27,
+      "x": 6265,
+      "y": 1282,
+      "missionId": "mission7",
+      "sideView": true
+    },
+    {
+      "id": 28,
+      "x": 6631,
+      "y": 1304,
+      "missionId": "mission7"
+    },
+    {
+      "id": 29,
+      "x": 4811,
+      "y": 3214,
+      "missionId": "mission7",
+      "backView": true
+    },
+    {
+      "id": 30,
+      "x": 5248,
+      "y": 3212,
+      "missionId": "mission7",
+      "sideView": true
+    },
+    {
+      "id": 31,
+      "x": 2973,
+      "y": 7058,
+      "backView": true,
+      "missionId": "mission8"
+    },
+    {
+      "id": 32,
+      "x": 3251,
+      "y": 7056,
+      "sideView": true,
+      "missionId": "mission8"
+    },
+    {
+      "id": 33,
+      "x": 2970,
+      "y": 7444,
+      "sideView": true,
+      "missionId": "mission8"
+    },
+    {
+      "id": 34,
+      "x": 3256,
+      "y": 7431,
+      "missionId": "mission8"
+    },
+    {
+      "id": 35,
+      "x": 5752,
+      "y": 47,
+      "backView": true,
+      "missionId": "mission9"
+    },
+    {
+      "id": 36,
+      "x": 6102,
+      "y": 106,
+      "sideView": true,
+      "missionId": "mission9"
+    },
+    {
+      "id": 37,
+      "x": 5753,
+      "y": 410,
+      "sideView": true,
+      "missionId": "mission9"
+    },
+    {
+      "id": 38,
+      "x": 6109,
+      "y": 411,
+      "missionId": "mission9"
+    }
+  ]
+}

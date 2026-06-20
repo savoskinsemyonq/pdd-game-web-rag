@@ -1,0 +1,11 @@
+ragas==0.2.14
+datasets==4.8.5
+langchain-core==0.3.66
+langchain-openai==0.3.14
+langchain-google-genai==2.0.11
+langchain-groq==0.2.4
+filetype>=1.2.0
+google-ai-generativelanguage>=0.6.16,<0.7.0
+nest-asyncio
+appdirs
+diskcache

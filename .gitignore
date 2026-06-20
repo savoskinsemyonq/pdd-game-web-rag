@@ -1,0 +1,41 @@
+# --- Node / web ---
+node_modules/
+web/node_modules/
+web/dist/
+web/tsconfig.tsbuildinfo
+*.log
+npm-debug.log*
+
+# --- Секреты / окружение ---
+.env
+web/.env
+*.local
+
+# --- Python / pdd-rag ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eval-venv/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Кэши моделей / артефакты рантайма ---
+*.pt
+.cache/
+hf_cache/
+
+# --- ОС / редактор ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Docker volume-данные (если вдруг окажутся локально) ---
+qdrant_storage/
+pg_data/
+
+# --- Локальные отладочные дампы ---
+game_logic_dump.json

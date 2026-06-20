@@ -1,0 +1,32 @@
+-SCENE 5.3 var0 
+TEXT   	 Должен ли грузовик вас пропустить? 
+ 1. Нет. 
+ 2. Да.
+TEXTPOS 0 450
+TIME 3000
+
+INIT MY_CAR.pedestrian1
+POSITION 2176 5761 
+SPLINE 2 0 0 0 0 -12 2000 0 -10 0 -12           
+
+INIT CAR.yellowblink
+POSITION 2112 5661 
+SPLINE 2 -2000 -300 0 16 0 0 0 0 120 0 
+turn -1 0 0 2
+
+ CASE 1
+  SPLINE 3 1000 0 0 0 -32 3000 0 -218 8 -32 4000 2 -250 12 -40   
+  c_init car.yellowblink
+  c_spline 4 0 0 0 40 0 1000 84 2 116 24 2000 126 68 4 48 3000 125 460 0 24        
+  
+  c_lost_time 2
+  fine 0
+
+C_ERRORINFO При выезде из жилой зоны водитель должен уступить дорогу другим участникам дорожного движения (п. 17.3).
+ 
+ CASE 2
+  SPLINE 3 0 0 0 0 -32 1000 0 -218 8 -32 4000 2 -250 12 -40 
+  c_init car.yellowblink
+  c_spline 4 1000 0 0 40 0 2000 84 2 116 24 3000 126 68 4 48 4000 125 460 0 24             
+          
+END_FILE

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 152 104" xmlns="http://www.w3.org/2000/svg" width="140" height="96">
+<defs>
+  <filter id="plf"><feDropShadow dx="1" dy="2" stdDeviation="2.5" flood-opacity=".35"/></filter>
+  <linearGradient id="plpg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#9ca3af"/><stop offset="50%" stop-color="#e5e7eb"/>
+    <stop offset="100%" stop-color="#9ca3af"/>
+  </linearGradient>
+</defs>
+<!-- Post -->
+<ellipse cx="12" cy="52" rx="6" ry="6" fill="#374151" opacity=".5"/>
+<rect x="12" y="49" width="36" height="6" rx="3" fill="url(#plpg)"/>
+<!-- Sign bg (blue) -->
+<rect x="47" y="6" width="98" height="86" rx="7" fill="#1e4ed8" filter="url(#plf)"/>
+<!-- Two white panels inside -->
+<rect x="53" y="12" width="41" height="74" rx="4" fill="white"/>
+<rect x="99" y="12" width="41" height="74" rx="4" fill="white"/>
+
+<!-- LEFT ICON: child on slide -->
+<!-- Slide structure -->
+<line x1="75" y1="24" x2="58" y2="72" stroke="#9ca3af" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="68" y1="24" x2="68" y2="50" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
+<!-- Child figure (stick) -->
+<circle cx="70" cy="26" r="5" fill="#4b5563"/>
+<line x1="70" y1="31" x2="67" y2="42" stroke="#4b5563" stroke-width="3" stroke-linecap="round"/>
+<line x1="67" y1="36" x2="73" y2="36" stroke="#4b5563" stroke-width="3" stroke-linecap="round"/>
+<line x1="67" y1="42" x2="63" y2="52" stroke="#4b5563" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="67" y1="42" x2="70" y2="52" stroke="#4b5563" stroke-width="2.5" stroke-linecap="round"/>
+<!-- Single diagonal prohibition line -->
+<line x1="53" y1="12" x2="94" y2="86" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
+
+<!-- RIGHT ICON: child on swing -->
+<!-- Swing frame -->
+<line x1="103" y1="20" x2="136" y2="20" stroke="#9ca3af" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="106" y1="20" x2="106" y2="44" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
+<line x1="133" y1="20" x2="133" y2="44" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
+<!-- Seat -->
+<rect x="104" y="44" width="29" height="5" rx="2.5" fill="#9ca3af"/>
+<!-- Child on swing -->
+<circle cx="119" cy="30" r="5" fill="#4b5563"/>
+<line x1="119" y1="35" x2="116" y2="45" stroke="#4b5563" stroke-width="3" stroke-linecap="round"/>
+<line x1="119" y1="35" x2="122" y2="45" stroke="#4b5563" stroke-width="3" stroke-linecap="round"/>
+<line x1="114" y1="40" x2="124" y2="40" stroke="#4b5563" stroke-width="3" stroke-linecap="round"/>
+<!-- Single diagonal prohibition line -->
+<line x1="99" y1="12" x2="140" y2="86" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
+
+<!-- Outer border -->
+<rect x="47" y="6" width="98" height="86" rx="7" fill="none" stroke="#1e3a8a" stroke-width="2.5"/>
+</svg>

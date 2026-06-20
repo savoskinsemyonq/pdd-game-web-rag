@@ -1,0 +1,1473 @@
+{
+  "version": 1,
+  "worldWidthPx": 12288,
+  "worldHeightPx": 12288,
+  "tileSizePx": 64,
+  "itemCount": 244,
+  "items": [
+    {
+      "kind": "house",
+      "sprite": "tex/houses/007.tga.GLt",
+      "xPx": 4104,
+      "yPx": 7304
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/002.tga.GLt",
+      "xPx": 5064,
+      "yPx": 2248
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 7304,
+      "yPx": 6152
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 7624,
+      "yPx": 6472
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 8072,
+      "yPx": 6088
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/023.tga.GLt",
+      "xPx": 3016,
+      "yPx": 2248
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 3656,
+      "yPx": 1928
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 3464,
+      "yPx": 2376
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/006.tga.GLt",
+      "xPx": 6472,
+      "yPx": 2120
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/010.tga.GLt",
+      "xPx": 5576,
+      "yPx": 3336
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/010.tga.GLt",
+      "xPx": 5896,
+      "yPx": 2440
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/014.tga.GLt",
+      "xPx": 4296,
+      "yPx": 2504
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/009.tga.GLt",
+      "xPx": 1096,
+      "yPx": 3272
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/019.tga.GLt",
+      "xPx": 1672,
+      "yPx": 3272
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/011.tga.GLt",
+      "xPx": 7560,
+      "yPx": 712
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/006.tga.GLt",
+      "xPx": 7112,
+      "yPx": 8
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/003.tga.GLt",
+      "xPx": 6472,
+      "yPx": 712
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/008.tga.GLt",
+      "xPx": 6984,
+      "yPx": 968
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/004.tga.GLt",
+      "xPx": 7560,
+      "yPx": 200
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/012.tga.GLt",
+      "xPx": 5512,
+      "yPx": 5896
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/010.tga.GLt",
+      "xPx": 5960,
+      "yPx": 5064
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/013.tga.GLt",
+      "xPx": 1672,
+      "yPx": 1864
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/013.tga.GLt",
+      "xPx": 1608,
+      "yPx": 1160
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/011.tga.GLt",
+      "xPx": 4936,
+      "yPx": 4744
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/011.tga.GLt",
+      "xPx": 4936,
+      "yPx": 5000
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/016.tga.GLt",
+      "xPx": 2824,
+      "yPx": 4488
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/020.tga.GLt",
+      "xPx": 3848,
+      "yPx": 6728
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/279.tga.GLt",
+      "xPx": 1352,
+      "yPx": 2440
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/312.tga.GLt",
+      "xPx": 1352,
+      "yPx": 2440
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 9416,
+      "yPx": 6664
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/017.tga.GLt",
+      "xPx": 2056,
+      "yPx": 4424
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/010.tga.GLt",
+      "xPx": 2120,
+      "yPx": 4040
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/011.tga.GLt",
+      "xPx": 2760,
+      "yPx": 2440
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/011.tga.GLt",
+      "xPx": 1992,
+      "yPx": 2568
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/011.tga.GLt",
+      "xPx": 6408,
+      "yPx": 4424
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/008.tga.GLt",
+      "xPx": 7048,
+      "yPx": 4424
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/008.tga.GLt",
+      "xPx": 7048,
+      "yPx": 4744
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/009.tga.GLt",
+      "xPx": 6408,
+      "yPx": 4744
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/010.tga.GLt",
+      "xPx": 7048,
+      "yPx": 4744
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 8136,
+      "yPx": 5128
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 1288,
+      "yPx": 5448
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 1096,
+      "yPx": 5768
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 1672,
+      "yPx": 5960
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 1672,
+      "yPx": 5320
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 1352,
+      "yPx": 5832
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/009.tga.GLt",
+      "xPx": 1032,
+      "yPx": 3912
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/011.tga.GLt",
+      "xPx": 1096,
+      "yPx": 4616
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/015.tga.GLt",
+      "xPx": 1480,
+      "yPx": 4616
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/008.tga.GLt",
+      "xPx": 1288,
+      "yPx": 4616
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/008.tga.GLt",
+      "xPx": 1032,
+      "yPx": 3592
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/008.tga.GLt",
+      "xPx": 1416,
+      "yPx": 2504
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/008.tga.GLt",
+      "xPx": 1288,
+      "yPx": 1032
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/019.tga.GLt",
+      "xPx": 4680,
+      "yPx": 1096
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/019.tga.GLt",
+      "xPx": 4360,
+      "yPx": 520
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/017.tga.GLt",
+      "xPx": 5704,
+      "yPx": 1160
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 2696,
+      "yPx": 5512
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 968,
+      "yPx": 6472
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 1480,
+      "yPx": 6792
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/015.tga.GLt",
+      "xPx": 2376,
+      "yPx": 6344
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/015.tga.GLt",
+      "xPx": 1800,
+      "yPx": 7176
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/013.tga.GLt",
+      "xPx": 1992,
+      "yPx": 6664
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/003.tga.GLt",
+      "xPx": 2440,
+      "yPx": 7176
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/024.tga.GLt",
+      "xPx": 520,
+      "yPx": 4424
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/009.tga.GLt",
+      "xPx": 7304,
+      "yPx": 200
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/013.tga.GLt",
+      "xPx": 6536,
+      "yPx": 8
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 9096,
+      "yPx": 7944
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 9416,
+      "yPx": 7560
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/023.tga.GLt",
+      "xPx": 9096,
+      "yPx": 7240
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 1608,
+      "yPx": 4360
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 1800,
+      "yPx": 4360
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 2120,
+      "yPx": 3784
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/012.tga.GLt",
+      "xPx": 3016,
+      "yPx": 968
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/031.tga.GLt",
+      "xPx": 6088,
+      "yPx": 3592
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/030.tga.GLt",
+      "xPx": 5960,
+      "yPx": 3592
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/029.tga.GLt",
+      "xPx": 6152,
+      "yPx": 3592
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/009.tga.GLt",
+      "xPx": 6088,
+      "yPx": 3592
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/009.tga.GLt",
+      "xPx": 5960,
+      "yPx": 3592
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/070.tga.GLt",
+      "xPx": 5960,
+      "yPx": 3592
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/071.tga.GLt",
+      "xPx": 6088,
+      "yPx": 3592
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/004.tga.GLt",
+      "xPx": 5896,
+      "yPx": 3336
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/004.tga.GLt",
+      "xPx": 5896,
+      "yPx": 3336
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/004.tga.GLt",
+      "xPx": 5896,
+      "yPx": 3464
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/004.tga.GLt",
+      "xPx": 5896,
+      "yPx": 3656
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/004.tga.GLt",
+      "xPx": 6152,
+      "yPx": 3656
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/068.tga.GLt",
+      "xPx": 5896,
+      "yPx": 3592
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/069.tga.GLt",
+      "xPx": 6152,
+      "yPx": 3592
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/054.tga.GLt",
+      "xPx": 5896,
+      "yPx": 3336
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/009.tga.GLt",
+      "xPx": 6088,
+      "yPx": 3272
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/stripings/009.tga.GLt",
+      "xPx": 5960,
+      "yPx": 3272
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/009.tga.GLt",
+      "xPx": 8264,
+      "yPx": 2312
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 7560,
+      "yPx": 2376
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/012.tga.GLt",
+      "xPx": 4808,
+      "yPx": 2504
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/013.tga.GLt",
+      "xPx": 5320,
+      "yPx": 2504
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/181.tga.GLt",
+      "xPx": 5256,
+      "yPx": 200
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/013.tga.GLt",
+      "xPx": 5384,
+      "yPx": 8
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/200.tga.GLt",
+      "xPx": 1288,
+      "yPx": 6088
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/201.tga.GLt",
+      "xPx": 1032,
+      "yPx": 5448
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/034.tga.GLt",
+      "xPx": 1160,
+      "yPx": 5192
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 1736,
+      "yPx": 3656
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 1928,
+      "yPx": 3656
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/183.tga.GLt",
+      "xPx": 1544,
+      "yPx": 3848
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/014.tga.GLt",
+      "xPx": 1288,
+      "yPx": 2440
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/202.tga.GLt",
+      "xPx": 1928,
+      "yPx": 7112
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/155.tga.GLt",
+      "xPx": 3720,
+      "yPx": 6792
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/203.tga.GLt",
+      "xPx": 3720,
+      "yPx": 7176
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/205.tga.GLt",
+      "xPx": 3464,
+      "yPx": 7432
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/161.tga.GLt",
+      "xPx": 3720,
+      "yPx": 4424
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/206.tga.GLt",
+      "xPx": 6728,
+      "yPx": 5576
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/208.tga.GLt",
+      "xPx": 6344,
+      "yPx": 5832
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/208.tga.GLt",
+      "xPx": 7112,
+      "yPx": 5320
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/206.tga.GLt",
+      "xPx": 6792,
+      "yPx": 5448
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/210.tga.GLt",
+      "xPx": 7112,
+      "yPx": 4296
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/010.tga.GLt",
+      "xPx": 5896,
+      "yPx": 200
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/214.tga.GLt",
+      "xPx": 4040,
+      "yPx": 968
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/043.tga.GLt",
+      "xPx": 4808,
+      "yPx": 1480
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/217.tga.GLt",
+      "xPx": 4360,
+      "yPx": 1480
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/127.tga.GLt",
+      "xPx": 2120,
+      "yPx": 5320
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/219.tga.GLt",
+      "xPx": 2376,
+      "yPx": 5448
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/069.tga.GLt",
+      "xPx": 2824,
+      "yPx": 5192
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/230.tga.GLt",
+      "xPx": 3720,
+      "yPx": 3656
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/230.tga.GLt",
+      "xPx": 3464,
+      "yPx": 3336
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/227.tga.GLt",
+      "xPx": 4680,
+      "yPx": 5192
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/199.tga.GLt",
+      "xPx": 2440,
+      "yPx": 6088
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/217.tga.GLt",
+      "xPx": 7496,
+      "yPx": 1736
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/218.tga.GLt",
+      "xPx": 8072,
+      "yPx": 1800
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/236.tga.GLt",
+      "xPx": 8648,
+      "yPx": 2696
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/229.tga.GLt",
+      "xPx": 6472,
+      "yPx": 2696
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/225.tga.GLt",
+      "xPx": 5832,
+      "yPx": 2696
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/191.tga.GLt",
+      "xPx": 1288,
+      "yPx": 712
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/237.tga.GLt",
+      "xPx": 1352,
+      "yPx": 456
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/211.tga.GLt",
+      "xPx": 1928,
+      "yPx": 6344
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/211.tga.GLt",
+      "xPx": 3720,
+      "yPx": 5128
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/212.tga.GLt",
+      "xPx": 3400,
+      "yPx": 7112
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/240.tga.GLt",
+      "xPx": 2248,
+      "yPx": 2696
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/009.tga.GLt",
+      "xPx": 2120,
+      "yPx": 3336
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/001.tga.GLt",
+      "xPx": 3976,
+      "yPx": 5960
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/191.tga.GLt",
+      "xPx": 5000,
+      "yPx": 456
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/218.tga.GLt",
+      "xPx": 3784,
+      "yPx": 1352
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/218.tga.GLt",
+      "xPx": 4232,
+      "yPx": 1864
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/243.tga.GLt",
+      "xPx": 4296,
+      "yPx": 2696
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/211.tga.GLt",
+      "xPx": 4680,
+      "yPx": 3208
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 10568,
+      "yPx": 3656
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 10632,
+      "yPx": 3400
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/022.tga.GLt",
+      "xPx": 10888,
+      "yPx": 3848
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/082.tga.GLt",
+      "xPx": 6408,
+      "yPx": 3208
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/221.tga.GLt",
+      "xPx": 2376,
+      "yPx": 5192
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/016.tga.GLt",
+      "xPx": 9928,
+      "yPx": 3208
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 10888,
+      "yPx": 3400
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 11080,
+      "yPx": 3656
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 11464,
+      "yPx": 3592
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/023.tga.GLt",
+      "xPx": 10376,
+      "yPx": 3528
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/009.tga.GLt",
+      "xPx": 3272,
+      "yPx": 7304
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/014.tga.GLt",
+      "xPx": 1928,
+      "yPx": 7752
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/015.tga.GLt",
+      "xPx": 1928,
+      "yPx": 8264
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/016.tga.GLt",
+      "xPx": 3336,
+      "yPx": 8328
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/017.tga.GLt",
+      "xPx": 2696,
+      "yPx": 5704
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/025.tga.GLt",
+      "xPx": 3144,
+      "yPx": 6088
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/169.tga.GLt",
+      "xPx": 3464,
+      "yPx": 7752
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/151.tga.GLt",
+      "xPx": 3720,
+      "yPx": 7944
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/196.tga.GLt",
+      "xPx": 3720,
+      "yPx": 7752
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/196.tga.GLt",
+      "xPx": 2824,
+      "yPx": 7944
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/151.tga.GLt",
+      "xPx": 2824,
+      "yPx": 7752
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/016.tga.GLt",
+      "xPx": 6984,
+      "yPx": 7112
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/012.tga.GLt",
+      "xPx": 6408,
+      "yPx": 7368
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/169.tga.GLt",
+      "xPx": 5768,
+      "yPx": 6984
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/169.tga.GLt",
+      "xPx": 3080,
+      "yPx": 7944
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/181.tga.GLt",
+      "xPx": 3208,
+      "yPx": 8008
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/031.tga.GLt",
+      "xPx": 4808,
+      "yPx": 7816
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/173.tga.GLt",
+      "xPx": 4744,
+      "yPx": 8072
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/109.tga.GLt",
+      "xPx": 4744,
+      "yPx": 7880
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/244.tga.GLt",
+      "xPx": 4936,
+      "yPx": 6984
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/231.tga.GLt",
+      "xPx": 5000,
+      "yPx": 6984
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/244.tga.GLt",
+      "xPx": 4936,
+      "yPx": 6984
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/231.tga.GLt",
+      "xPx": 5320,
+      "yPx": 6728
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/244.tga.GLt",
+      "xPx": 5384,
+      "yPx": 6728
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/247.tga.GLt",
+      "xPx": 3464,
+      "yPx": 5192
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/254.tga.GLt",
+      "xPx": 6664,
+      "yPx": 1544
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/197.tga.GLt",
+      "xPx": 1608,
+      "yPx": 6792
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/003.tga.GLt",
+      "xPx": 1544,
+      "yPx": 6600
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/211.tga.GLt",
+      "xPx": 2056,
+      "yPx": 6024
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/197.tga.GLt",
+      "xPx": 1992,
+      "yPx": 5768
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/003.tga.GLt",
+      "xPx": 1992,
+      "yPx": 5512
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/021.tga.GLt",
+      "xPx": 1800,
+      "yPx": 5448
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/009.tga.GLt",
+      "xPx": 2888,
+      "yPx": 3464
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/215.tga.GLt",
+      "xPx": 5064,
+      "yPx": 3016
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/013.tga.GLt",
+      "xPx": 2760,
+      "yPx": 3208
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/200.tga.GLt",
+      "xPx": 8712,
+      "yPx": 2248
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/234.tga.GLt",
+      "xPx": 8968,
+      "yPx": 2568
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/031.tga.GLt",
+      "xPx": 8904,
+      "yPx": 2440
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/030.tga.GLt",
+      "xPx": 4680,
+      "yPx": 456
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/001.tga.GLt",
+      "xPx": 5512,
+      "yPx": 456
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/026.tga.GLt",
+      "xPx": 4296,
+      "yPx": 1992
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/032.tga.GLt",
+      "xPx": 5960,
+      "yPx": 1992
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/037.tga.GLt",
+      "xPx": 5640,
+      "yPx": 1800
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/008.tga.GLt",
+      "xPx": 4232,
+      "yPx": 5128
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/011.tga.GLt",
+      "xPx": 3592,
+      "yPx": 1224
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/011.tga.GLt",
+      "xPx": 2760,
+      "yPx": 968
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/014.tga.GLt",
+      "xPx": 4360,
+      "yPx": 1736
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/255.tga.GLt",
+      "xPx": 2312,
+      "yPx": 6984
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/257.tga.GLt",
+      "xPx": 2376,
+      "yPx": 6984
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/013.tga.GLt",
+      "xPx": 3208,
+      "yPx": 456
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/013.tga.GLt",
+      "xPx": 2824,
+      "yPx": 8
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/009.tga.GLt",
+      "xPx": 4808,
+      "yPx": 4488
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/032.tga.GLt",
+      "xPx": 4104,
+      "yPx": 4296
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/014.tga.GLt",
+      "xPx": 4360,
+      "yPx": 4040
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/032.tga.GLt",
+      "xPx": 1608,
+      "yPx": 520
+    },
+    {
+      "kind": "house",
+      "sprite": "tex/houses/033.tga.GLt",
+      "xPx": 1928,
+      "yPx": 456
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/170.tga.GLt",
+      "xPx": 3400,
+      "yPx": 2696
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/244.tga.GLt",
+      "xPx": 5000,
+      "yPx": 7752
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/244.tga.GLt",
+      "xPx": 5320,
+      "yPx": 7496
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/231.tga.GLt",
+      "xPx": 4936,
+      "yPx": 7752
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/231.tga.GLt",
+      "xPx": 5384,
+      "yPx": 7496
+    },
+    {
+      "kind": "other",
+      "sprite": "tex/signs/000.tga.GLt",
+      "xPx": 6920,
+      "yPx": 1736
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/000.tga.GLt",
+      "xPx": 4040,
+      "yPx": 328
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/002.tga.GLt",
+      "xPx": 1224,
+      "yPx": 1736
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/004.tga.GLt",
+      "xPx": 968,
+      "yPx": 1352
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/005.tga.GLt",
+      "xPx": 1224,
+      "yPx": 1352
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/004.tga.GLt",
+      "xPx": 2824,
+      "yPx": 6792
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/005.tga.GLt",
+      "xPx": 3080,
+      "yPx": 6792
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/003.tga.GLt",
+      "xPx": 2824,
+      "yPx": 7112
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/002.tga.GLt",
+      "xPx": 3080,
+      "yPx": 7112
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/006.tga.GLt",
+      "xPx": 5064,
+      "yPx": 5576
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/006.tga.GLt",
+      "xPx": 5256,
+      "yPx": 5448
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/002.tga.GLt",
+      "xPx": 11016,
+      "yPx": 11016
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/005.tga.GLt",
+      "xPx": 4232,
+      "yPx": 200
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/003.tga.GLt",
+      "xPx": 3784,
+      "yPx": 456
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/002.tga.GLt",
+      "xPx": 4232,
+      "yPx": 456
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/005.tga.GLt",
+      "xPx": 4232,
+      "yPx": 200
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/002.tga.GLt",
+      "xPx": 3784,
+      "yPx": 3208
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/005.tga.GLt",
+      "xPx": 6408,
+      "yPx": 2696
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/004.tga.GLt",
+      "xPx": 6088,
+      "yPx": 2632
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/002.tga.GLt",
+      "xPx": 6152,
+      "yPx": 3272
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/003.tga.GLt",
+      "xPx": 5896,
+      "yPx": 3272
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/005.tga.GLt",
+      "xPx": 4232,
+      "yPx": 2696
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/004.tga.GLt",
+      "xPx": 3848,
+      "yPx": 2696
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/003.tga.GLt",
+      "xPx": 3912,
+      "yPx": 3144
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/005.tga.GLt",
+      "xPx": 2696,
+      "yPx": 200
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/002.tga.GLt",
+      "xPx": 2696,
+      "yPx": 456
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/003.tga.GLt",
+      "xPx": 2248,
+      "yPx": 456
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/000.tga.GLt",
+      "xPx": 2504,
+      "yPx": 328
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/004.tga.GLt",
+      "xPx": 5064,
+      "yPx": 776
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/005.tga.GLt",
+      "xPx": 5384,
+      "yPx": 840
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/002.tga.GLt",
+      "xPx": 5384,
+      "yPx": 1096
+    },
+    {
+      "kind": "trafficLight",
+      "sprite": "tex/trafficlights/003.tga.GLt",
+      "xPx": 5064,
+      "yPx": 1096
+    }
+  ]
+}

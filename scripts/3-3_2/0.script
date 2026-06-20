@@ -1,0 +1,29 @@
+-SCENE 3.2 var0 
+TEXT   	 Можете ли вы остановиться, чтобы подобрать пассажира? 
+ 1. Да. 
+ 2. Нет.
+TEXTPOS 0 450
+TIME 2000
+
+INIT MY_CAR.taxi
+POSITION 5983 320 
+SPLINE 2 0 0 0 -8 0 1000 -100 -1 -28 0      
+ 
+INIT PEDESTRIAN.pedestrian4
+DELETE 3000
+POSITION 5854 255
+SPLINE 2 0 0 0 0 28 6000 -1 26 0 20 
+ 
+CASE 1
+  SPLINE 3 0 0 0 -8 0 1000 -140 -17 0 0 3000 -142 -17 0 0        
+  turn 0 2 2000 1        
+ 
+CASE 2
+  SPLINE 3 0 0 0 -8 0 1000 -140 -17 0 0 3000 -142 -17 0 0      
+  turn 0 2 2000 1
+c_lost_time 2
+  fine 0
+
+C_ERRORINFO Этот знак запрещает только стоянку, остановиться для посадки пассажира можно (Приложение 1).
+
+END_FILE

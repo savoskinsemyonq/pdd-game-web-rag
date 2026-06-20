@@ -1,0 +1,16 @@
+TEXT   Нарушитель пытался скрыться, но не тут-то было! 	вы с другом догнали и задержали его. Молодцы! 
+ Дальше
+TEXTPOS 0 450
+
+INIT MY_CAR.ment
+POSITION 3357 2137
+SPLINE 2 0 0 0 0 -44 1000 1 -660 0 -36   
+
+INIT CAR.lada
+POSITION 3264 2140 
+SPLINE 1 0 0 0 76 36 
+
+CASE 1
+spline 1 0 0 0 0 -28  
+
+END_FILE

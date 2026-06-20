@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 148 98" xmlns="http://www.w3.org/2000/svg" width="138" height="91">
+<defs>
+  <filter id="nof"><feDropShadow dx="1" dy="2" stdDeviation="2.5" flood-opacity=".35"/></filter>
+  <linearGradient id="nopg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#9ca3af"/><stop offset="50%" stop-color="#e5e7eb"/>
+    <stop offset="100%" stop-color="#9ca3af"/>
+  </linearGradient>
+</defs>
+<!-- Post base + arm -->
+<ellipse cx="12" cy="49" rx="6" ry="6" fill="#374151" opacity=".5"/>
+<rect x="12" y="46" width="36" height="6" rx="3" fill="url(#nopg)"/>
+<!-- Sign background (white) -->
+<rect x="47" y="8" width="94" height="72" rx="7" fill="white" filter="url(#nof)"/>
+<!-- Red border -->
+<rect x="47" y="8" width="94" height="72" rx="7" fill="none" stroke="#dc2626" stroke-width="4.5"/>
+<!-- ПРАВИЛСК text -->
+<text x="94" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="15" fill="#1e293b" letter-spacing="0.5">ПРАВИЛ</text>
+<text x="94" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="15" fill="#1e293b" letter-spacing="0.5">СТОЯНКА</text>
+<!-- Single red diagonal strike-through -->
+<line x1="47" y1="8" x2="141" y2="80" stroke="#dc2626" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,50 @@
+-SCENE 4.7 var0 
+TEXT   	  Разрешено ли вам выехать на железнодорожный переезд? 
+ 1. Да. 
+ 2. Да, если отсутствует приближающийся поезд. 
+ 3. Нет.
+TEXTPOS 0 450
+TIME 2000
+
+INIT MY_CAR.our_car
+POSITION 3648 3712 
+SPLINE 2 0 0 0 0 -28 1000 0 -199 0 0                
+
+INIT CAR.yellowblink
+POSITION 3648 3455 
+SPLINE 1 0 0 0 0 -32 
+
+INIT CAR.truck
+POSITION 3648 3343 
+SPLINE 1 0 0 0 0 -32 
+
+CASE 1
+SPLINE 2 2000 0 0 0 -32 3000 1 -298 0 -36 
+c_init car.yellowblink
+c_spline 2 0 0 0 0 -42 2000 0 -599 0 0    
+c_init car.truck
+c_spline 2 0 0 0 0 -42 2000 0 -599 0 0 
+
+fine 5000
+
+C_ERRORINFO Правила запрещают выезжать на переезд, если за ним образовался затор (п. 15.3). Штраф 5 тыс. руб. (12.10 ч.2).
+
+CASE 2
+SPLINE 2 2000 0 0 0 -32 3000 1 -298 0 -36 
+c_init car.yellowblink
+c_spline 2 0 0 0 0 -42 2000 0 -599 0 0    
+c_init car.truck
+c_spline 2 0 0 0 0 -42 2000 0 -599 0 0
+
+fine 5000
+
+C_ERRORINFO Правила запрещают выезжать на переезд, если за ним образовался затор даже при отсутствии приближающегося поезда (п. 15.3). Штраф 5 тыс. руб. (12.10 ч.2).
+
+CASE 3
+SPLINE 2 2000 0 0 0 -32 3000 1 -298 0 -36 
+c_init car.yellowblink
+c_spline 2 0 0 0 0 -42 2000 0 -599 0 0    
+c_init car.truck
+c_spline 2 0 0 0 0 -42 2000 0 -599 0 0
+
+END_FILE

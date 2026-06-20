@@ -1,0 +1,14 @@
+{
+  "name": "pdd-game-web",
+  "private": true,
+  "description": "Корневой скрипт запуска — делегирует в web/",
+  "scripts": {
+    "stop": "npm run stop --prefix web",
+    "restart": "npm run restart --prefix web",
+    "dev": "npm run dev --prefix web",
+    "build": "npm run build --prefix web",
+    "build:data": "npm run build:data --prefix web",
+    "install:web": "npm install --prefix web",
+    "postinstall": "npm install --prefix web"
+  }
+}

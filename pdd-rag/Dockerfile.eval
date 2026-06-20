@@ -1,0 +1,12 @@
+FROM pddv2-rag-api:latest
+
+WORKDIR /app
+
+COPY requirements-eval.txt ./
+RUN pip install --no-cache-dir "pip==25.3" \
+    && pip install --no-cache-dir -r requirements-eval.txt
+
+COPY rag_eval ./rag_eval
+
+ENTRYPOINT ["python", "-m", "rag_eval.run_ragas"]
+CMD ["--skip-ragas"]
